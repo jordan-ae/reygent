@@ -1,0 +1,33 @@
+<!doctype html>
+<!--
+  A form with a CAPTCHA a person has to act on: the "I'm not a robot" checkbox, rendered
+  at its usual 304 x 78 inside the form. With ?late it only appears 600 ms after the
+  page has loaded, into a container that starts out empty — the state Lever's hCaptcha
+  container is in for a moment on every load.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Apply - QA Engineer</title>
+  </head>
+  <body>
+    <main>
+      <h1>QA Engineer</h1>
+      <form method="post" action="/submit?from=widget">
+        <p><label for="name">Full name</label><input id="name" name="name" type="text" required /></p>
+        <p><label for="email">Email</label><input id="email" name="email" type="email" required /></p>
+        <p><label for="github">GitHub</label><input id="github" name="github" type="url" /></p>
+        <div class="g-recaptcha" data-sitekey="fixture-site-key"></div>
+        <p><button type="submit">Submit application</button></p>
+      </form>
+    </main>
+    <script>
+      var render = function () {
+        document.querySelector(".g-recaptcha").innerHTML =
+          '<div style="width: 304px; height: 78px"><iframe title="reCAPTCHA" width="304" height="78" src="/recaptcha/anchor"></iframe></div>';
+      };
+      if (/[?&]late\b/.test(window.location.search)) setTimeout(render, 600);
+      else render();
+    </script>
+  </body>
+</html>

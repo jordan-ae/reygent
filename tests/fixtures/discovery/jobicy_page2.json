@@ -1,0 +1,55 @@
+{
+  "apiVersion": "2.2.19",
+  "documentationUrl": "https://jobi.cy/apidocs",
+  "friendlyNotice": "Thanks for using Jobicy API! Please ensure Jobicy is clearly credited with a direct link to the source, and all application buttons redirect to the original job URL provided in this feed. That’s all! You might be building something amazing, we wish you the best of luck!",
+  "jobCount": 200,
+  "lastUpdate": "2026-10-11T03:50:06+00:00",
+  "nextCursor": "AgAAAABqzQWvAAAAAGrIVmUAAAAAAAJUx5GStyjVOt7ULMvdFdHp_0xjGsH--7hP_G6cSgT0AUpIT8wcabef3sQ1TwfSnaHRTpRSFCHv3SJ77c1lHCWUKWU",
+  "hasMore": true,
+  "appliedFilters": {
+    "count": 200,
+    "cursor": "AgAAAABqzQWvAAAAAGrLB28AAAAAAAJVnZGStyjVOt7ULMvdFdHp_0xjGsH--7hP_G6cSgT0AUpI1MhxM8gAOwJZib9Al8s18fw6OXyWsIjj4HfKLV4oIm0"
+  },
+  "jobs": [
+    {
+      "id": 150352,
+      "url": "https://jobicy.com/jobs/150352-senior-pre-sales-engineer-singapore",
+      "jobSlug": "150352-senior-pre-sales-engineer-singapore",
+      "jobTitle": "Senior Pre-Sales Engineer (Singapore)",
+      "companyName": "Deepgram",
+      "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2020/12/WRILS-201212160008-406229.jpg",
+      "jobIndustry": [
+        "Sales"
+      ],
+      "jobType": [
+        "Full-Time"
+      ],
+      "jobGeo": "Singapore",
+      "jobLevel": "Senior",
+      "jobExcerpt": "Company OverviewDeepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack in&hellip;",
+      "jobDescription": "<h2><strong>Company Overview</strong></h2><p><a href=\"https://jobicy.com/company/deepgram\" target=\"_blank\" rel=\"noopener\">Deepgram</a> is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, […]",
+      "pubDate": "2026-10-11T03:50:06+00:00"
+    },
+    {
+      "id": 145652,
+      "url": "https://jobicy.com/jobs/145652-senior-product-manager-smart-metering-steering-m-f-d",
+      "jobSlug": "145652-senior-product-manager-smart-metering-steering-m-f-d",
+      "jobTitle": "(Senior) Product Manager Smart Metering & Steering (m/f/d)",
+      "companyName": "1KOMMA5°",
+      "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/acfcf5dc-221.png",
+      "jobIndustry": [
+        "Product & Operations"
+      ],
+      "jobType": [
+        "Full-Time"
+      ],
+      "jobGeo": "Germany",
+      "jobLevel": "Senior",
+      "jobExcerpt": "1KOMMA5°At 1KOMMA5°, we pursue a clear vision: Living on wind and sunlight forever for free. To make this a reality, we are building the energy system of the future with Heartbeat AI. Want to be part of it?We bring together regional craftsmanship and scalable software: We don't think of solar, batteries, heat pumps, and e-mobility as&hellip;",
+      "jobDescription": "<h2><a href=\"https://jobicy.com/company/1komma5\" target=\"_blank\" rel=\"noopener\">1KOMMA5°</a></h2>At <strong>1KOMMA5°</strong>, we pursue a clear vision: <strong>Living on wind and sunlight forever for free</strong>. To make this a reality, we are building the energy system of the future with Heartbeat AI. Want to be part of it?We bring together regional craftsmanship and scalable software: We don't think of solar, batteries, heat pumps, and e-mobility as isolated components, […]",
+      "pubDate": "2026-10-11T03:50:04+00:00"
+    }
+  ],
+  "statusCode": 200,
+  "success": true
+}

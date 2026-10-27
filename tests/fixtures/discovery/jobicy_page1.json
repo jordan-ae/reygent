@@ -1,0 +1,96 @@
+{
+  "apiVersion": "2.2.19",
+  "documentationUrl": "https://jobi.cy/apidocs",
+  "friendlyNotice": "Thanks for using Jobicy API! Please ensure Jobicy is clearly credited with a direct link to the source, and all application buttons redirect to the original job URL provided in this feed. That’s all! You might be building something amazing, we wish you the best of luck!",
+  "jobCount": 200,
+  "lastUpdate": "2026-10-12T12:37:19+00:00",
+  "nextCursor": "AgAAAABqzQWvAAAAAGrLB28AAAAAAAJVnZGStyjVOt7ULMvdFdHp_0xjGsH--7hP_G6cSgT0AUpI1MhxM8gAOwJZib9Al8s18fw6OXyWsIjj4HfKLV4oIm0",
+  "hasMore": true,
+  "appliedFilters": {
+    "count": 200
+  },
+  "jobs": [
+    {
+      "id": 155112,
+      "url": "https://jobicy.com/jobs/155112-senior-software-engineer-cloud-backend-infrastructure",
+      "jobSlug": "155112-senior-software-engineer-cloud-backend-infrastructure",
+      "jobTitle": "Senior Software Engineer, Cloud (Backend / Infrastructure)",
+      "companyName": "Webflow",
+      "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2022/01/b75fa7e9-221.jpg",
+      "jobIndustry": [
+        "DevOps & Infrastructure"
+      ],
+      "jobType": [
+        "Full-Time"
+      ],
+      "jobGeo": "Argentina",
+      "jobLevel": "Senior",
+      "jobExcerpt": "Webflow is the agentic web marketing platform for modern marketing teams, helping organizations build, manage, and optimize high-performing web experiences that drive predictable growth and strengthen brand trust. Building at Webflow will need grit, because we move fast, without ever sacrificing craft or quality. We’re looking for a Senior Software Engineer to build and evolve&hellip;",
+      "jobDescription": "<p><a href=\"https://jobicy.com/company/webflow\" target=\"_blank\" rel=\"noopener\">Webflow</a> is the agentic web marketing platform for modern marketing teams, helping organizations build, manage, and optimize high-performing web experiences that drive predictable growth and strengthen brand trust. Building at Webflow will need grit, because we move fast, without ever sacrificing craft or quality.</p>\n<p>We’re looking for a Senior Software Engineer to build and evolve Webflow […]",
+      "pubDate": "2026-10-12T11:51:31+00:00"
+    },
+    {
+      "id": 155104,
+      "url": "https://jobicy.com/jobs/155104-content-lead",
+      "jobSlug": "155104-content-lead",
+      "jobTitle": "Content Lead",
+      "companyName": "saas.group",
+      "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/f6d362c3-221-1.png",
+      "jobIndustry": [
+        "Content & Editorial"
+      ],
+      "jobType": [
+        "Full-Time"
+      ],
+      "jobGeo": "Anywhere",
+      "jobLevel": "Senior",
+      "jobExcerpt": "This role is part of a fast-growing AI company that is set to join saas.group, as one of our upcoming brands. This role is attached to a future acquisition by saas.group. As the deal has not been officially announced yet, we can’t share the company name in this job post. We’ll tell you more about&hellip;",
+      "jobDescription": "<p>This role is part of a fast-growing AI company that is set to join <a href=\"https://jobicy.com/company/saas-group\" target=\"_blank\" rel=\"noopener\">saas.group</a>, as one of our upcoming brands.</p>\n<p>This role is attached to a <strong>future acquisition by saas.group</strong>. As the deal has not been officially announced yet, we can’t share the company name in this job post. We’ll tell you more about the company and product during the process.</p>\n<p>We are an AI platform […]",
+      "pubDate": "2026-10-12T11:51:32+00:00"
+    },
+    {
+      "id": 155122,
+      "url": "https://jobicy.com/jobs/155122-applied-scientist-pro-growth",
+      "jobSlug": "155122-applied-scientist-pro-growth",
+      "jobTitle": "Applied Scientist, Pro Growth",
+      "companyName": "Thumbtack",
+      "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2021/05/Jobicy-210503180426-842530.jpg",
+      "jobIndustry": [
+        "Data Science & Analytics"
+      ],
+      "jobType": [
+        "Full-Time"
+      ],
+      "jobGeo": "Canada",
+      "jobLevel": "Senior",
+      "jobExcerpt": "Thumbtack helps millions of people confidently care for their homes. Thumbtack is the one app you need to take care of and improve your home — from personalized guidance to AI tools and a best-in-class hiring experience. Every day in every county of the U.S., people turn to Thumbtack to complete urgent repairs, seasonal maintenance&hellip;",
+      "jobDescription": "<h3><strong><a href=\"https://jobicy.com/company/thumbtack\" target=\"_blank\" rel=\"noopener\">Thumbtack</a> helps millions of people confidently care for their homes.</strong></h3>\n<p>Thumbtack is the one app you need to take care of and improve your home — from personalized guidance to AI tools and a best-in-class hiring experience. Every day in every county of the U.S., people turn to Thumbtack to complete urgent repairs, seasonal maintenance and bigger improvements. We help […]",
+      "pubDate": "2026-10-12T12:37:19+00:00",
+      "salaryMin": 161500,
+      "salaryMax": 209000,
+      "salaryCurrency": "CAD",
+      "salaryPeriod": "yearly"
+    },
+    {
+      "id": 155090,
+      "url": "https://jobicy.com/jobs/155090-senior-accountant-6-month-contract",
+      "jobSlug": "155090-senior-accountant-6-month-contract",
+      "jobTitle": "Senior Accountant (6-Month Contract)",
+      "companyName": "LevelUp",
+      "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/31e98500-221.png",
+      "jobIndustry": [
+        "Finance & Accounting"
+      ],
+      "jobType": [
+        "Contract"
+      ],
+      "jobGeo": "Philippines",
+      "jobLevel": "Senior",
+      "jobExcerpt": "Company Overview LevelUp is a specialist agency providing outsourcing solutions to agencies, software vendors, and website owners. For over seven years, we have successfully collaborated with a variety of companies, providing valuable technical, operational, and back-office support. We have a large team of skilled and passionate professionals who are committed to delivering high-quality work for&hellip;",
+      "jobDescription": "<h3><strong>Company Overview</strong></h3>\n<p><strong><a href=\"https://jobicy.com/company/levelup\" target=\"_blank\" rel=\"noopener\">LevelUp</a> </strong>is a specialist agency providing outsourcing solutions to agencies, software vendors, and website owners. For over seven years, we have successfully collaborated with a variety of companies, providing valuable technical, operational, and back-office support. We have a large team of skilled and passionate professionals who are […]",
+      "pubDate": "2026-10-12T06:59:54+00:00"
+    }
+  ],
+  "statusCode": 200,
+  "success": true
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "additionalPlain": "Compensation\nThe US base salary range for this role is $110K–$210K annually, plus equity and benefits.\nCompensation is determined by role, level, location, and individual qualifications, including skills, experience, and scope of responsibility.  […]",
+    "additional": "<div>\n<div><strong><em>Compensation</em></strong><br aria-hidden=\"true\"><em>The US base salary range for this role is </em><strong><em>$110K–$210K annually</em></strong><em>, plus equity and benefits.</em><br aria-hidden=\"true\"><em>Compensation is determined by role, level, location, and individual qualifications, including skills, experience, and scope of responsibility. Pay may vary by geographic location and other job-related factors.</em></div><p>[…]</p>",
+    "categories": {
+      "commitment": "Full-time (remote)",
+      "location": "Global Remote",
+      "team": "Engineering",
+      "allLocations": [
+        "Global Remote"
+      ]
+    },
+    "createdAt": 1589923158802,
+    "descriptionPlain": "Metabase is the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users. That's why people love us.\n \nWe bring data tools with the elegance and simplicity of consumer products to the crufty world of enterprise business intelligence.  […]",
+    "description": "<div>Metabase is the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users. That's why people <a href=\"https://www.metabase.com/love\" class=\"postings-link\">love us</a>.</div>\n<div>&nbsp;</div>\n<div>We bring data tools with the elegance and simplicity of consumer products to the crufty world of enterprise business intelligence. We provide an opinionated open source starting point for how companies should measure, analyze and share their data, which is used by tens of thousands of companies.</div><div><br></div><p>[…]</p>",
+    "id": "85f454d8-e795-4978-8a2b-4b8bfa7d7c37",
+    "lists": [
+      {
+        "text": "About You",
+        "content": "\n<li>Experience in Clojure (or a strong desire to learn)</li>\n<li>Track record of shipping products of significant complexity</li>\n<li>Solid CS background (acquired through either a CS program or shipping software in a production setting)</li><p>[…]</p>"
+      }
+    ],
+    "text": "Software Engineer (Backend)",
+    "country": "US",
+    "workplaceType": "remote",
+    "opening": "<div>Metabase is the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users. That's why people <a class=\"postings-link\" href=\"https://www.metabase.com/love\">love us</a>.</div>\n<div>&nbsp;</div><p>[…]</p>",
+    "openingPlain": "Metabase is the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users.  […]",
+    "descriptionBody": "<div>We&rsquo;re looking for exceptional software engineers to join our team in doing the hard work that makes our users&rsquo; lives easy. We run on a mix of Clojure and JavaScript (and TypeScript), and the ideal candidate has shipped production code in one or more of these languages. You&rsquo;ll be expected to ship major features end to end across our JavaScript and Clojure codebase, as well as<p>[…]</p>",
+    "descriptionBodyPlain": "We’re looking for exceptional software engineers to join our team in doing the hard work that makes our users’ lives easy. We run on a mix of Clojure and JavaScript (and TypeScript), and the ideal candidate has shipped production code in one or more of these languages.  […]",
+    "hostedUrl": "https://jobs.lever.co/metabase/85f454d8-e795-4978-8a2b-4b8bfa7d7c37",
+    "applyUrl": "https://jobs.lever.co/metabase/85f454d8-e795-4978-8a2b-4b8bfa7d7c37/apply"
+  },
+  {
+    "additionalPlain": "We're a global team (50% outside the US), fully distributed (from Thailand to California), who get things done asynchronously, with plenty of uninterrupted time, supporting each other to do the best work of our careers.  […]",
+    "additional": "<div>We're a global team (50% outside the US), fully distributed (from Thailand to California), who get things done asynchronously, with plenty of uninterrupted time, supporting each other to do the best work of our careers. We offer flexibility (define your own schedule and work from wherever you want), autonomy, and an environment that fosters growth, learning, and development. We're relentlessly user-focused and believe in building long-term value, not short-term hacks. And we raised a $30M S<p>[…]</p>",
+    "categories": {
+      "commitment": "Full-time (remote)",
+      "location": "Global Remote",
+      "team": "Success Engineering",
+      "allLocations": [
+        "Global Remote"
+      ]
+    },
+    "createdAt": 1589928178039,
+    "descriptionPlain": "Metabase is the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users. That's why people love us.\n \nWe bring data tools with the elegance and simplicity of consumer products to the crufty world of enterprise business intelligence.  […]",
+    "description": "<div>Metabase is the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users. That's why people <a href=\"https://www.metabase.com/love\" class=\"postings-link\">love us</a>.</div>\n<div>&nbsp;</div>\n<div>We bring data tools with the elegance and simplicity of consumer products to the crufty world of enterprise business intelligence. We provide an opinionated open source starting point for how companies should measure, analyze and share their data, which is used by tens of thousands of companies.</div><div><br></div><p>[…]</p>",
+    "id": "20d0af01-5532-4c22-bf64-474f15b1df05",
+    "lists": [
+      {
+        "text": "What you’ll do",
+        "content": "\n<li>Talk to our users to understand their goals and challenges</li>\n<li>Help customers design and optimize their Metabase implementation</li><p>[…]</p>"
+      },
+      {
+        "text": "About you",
+        "content": "\n<li>Enjoy helping people and solving their problems</li>\n<li>Strong technical background with 3+ years of experience writing production code, administering systems, and/or managing databases</li>\n<li>Strong database and SQL skills</li>\n\n<div>&nbsp;</div><p>[…]</p>"
+      },
+      {
+        "text": "Nice to have",
+        "content": "\n<li>Experience with Metabase or other BI tools</li>\n<li>Experience working for an open source product</li>\n<li>Fluency in multiple languages (this is helpful as our users are worldwide)</li>\n"
+      },
+      {
+        "text": "Why join us?",
+        "content": "\n<li>We operate as a fully remote, async team. Work where and when you’re most productive - we trust you to get your work done. Meetings are rare, efficient, and your time is respected.</li><p>[…]</p>"
+      },
+      {
+        "text": "Closing",
+        "content": "<div>\n<div><span style=\"font-size: 11pt;\">Here’s some quotes from real customers about working with Success Engineering:</span></div>\n<div>&nbsp;</div>\n<div><em style=\"font-size: 11pt;\">“The Metabase Success Engineering team is amazing! Outlier in the industry, IMO”</em></div>\n<div>&nbsp;</div><p>[…]</p>"
+      }
+    ],
+    "salaryRange": {
+      "min": 90000,
+      "max": 190000,
+      "currency": "USD",
+      "interval": "per-year-salary"
+    },
+    "salaryDescription": "<div><strong><em>Compensation</em></strong><br aria-hidden=\"true\"><em>The US base salary range for this role is </em><strong><em>listed above</em></strong><em>, plus equity and benefits.</em><br aria-hidden=\"true\"><em>Compensation is determined by role, level, location, and individual qualifications<p>[…]</p>",
+    "salaryDescriptionPlain": "Compensation\nThe US base salary range for this role is listed above, plus equity and benefits.\n […]",
+    "text": "Success Engineer (Global)",
+    "country": "US",
+    "workplaceType": "remote",
+    "opening": "<div>Metabase is the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users. That's why people <a class=\"postings-link\" href=\"https://www.metabase.com/love\">love us</a>.</div>\n<div>&nbsp;</div><p>[…]</p>",
+    "openingPlain": "Metabase is the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users.  […]",
+    "descriptionBody": "<div>Metabase is looking for a customer-focused, highly technical <strong>Success Engineer</strong> to join our growing global team. We are looking for someone who loves data, enjoys helping others, and is excited to work for a startup to help our customers get the most out of Metabase.</div>\n<div>&nbsp;</div><p>[…]</p>",
+    "descriptionBodyPlain": "Metabase is looking for a customer-focused, highly technical Success Engineer to join our growing global team. We are looking for someone who loves data, enjoys helping others, and is excited to work for a startup to help our customers get the most out of Metabase.\n \n […]",
+    "hostedUrl": "https://jobs.lever.co/metabase/20d0af01-5532-4c22-bf64-474f15b1df05",
+    "applyUrl": "https://jobs.lever.co/metabase/20d0af01-5532-4c22-bf64-474f15b1df05/apply"
+  },
+  {
+    "additionalPlain": "Compensation\nThe US base salary range for this role is $190K–$200K annually, plus equity and benefits.\nCompensation is determined by role, level, location, and individual qualifications, including skills, experience, and scope of responsibility.  […]",
+    "additional": "<div>\n<div><strong><em>Compensation</em></strong><br aria-hidden=\"true\"><em>The US base salary range for this role is </em><strong><em>$190K–$200K annually</em></strong><em>, plus equity and benefits.</em><br aria-hidden=\"true\"><em>Compensation is determined by role, level, location, and individual qualifications, including skills, experience, and scope of responsibility. Pay may vary by geographic location and other job-related factors.</em></div><p>[…]</p>",
+    "categories": {
+      "commitment": "Full-time (remote)",
+      "location": "Global Remote",
+      "team": "Sales",
+      "allLocations": [
+        "Global Remote"
+      ]
+    },
+    "createdAt": 1766071767630,
+    "descriptionPlain": "Metabase is the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users. That's why people love us.\n \nWe bring data tools with the elegance and simplicity of consumer products to the crufty world of enterprise business intelligence.  […]",
+    "description": "<div>Metabase is the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users. That's why people <a href=\"https://www.metabase.com/love\" class=\"postings-link\">love us</a>.</div>\n<div>&nbsp;</div>\n<div>We bring data tools with the elegance and simplicity of consumer products to the crufty world of enterprise business intelligence. We provide an opinionated open source starting point for how companies should measure, analyze and share their data, which is used by tens of thousands of companies.</div><div><br></div><p>[…]</p>",
+    "id": "5c6ef24f-8f66-4085-b9c9-5aa7c95b8612",
+    "lists": [
+      {
+        "text": "What you’ll do:",
+        "content": "\n<li>Define and build target account plans</li>\n<li>Build and refine new product positioning</li>\n<li>Manage pipeline from creation to close</li>\n"
+      },
+      {
+        "text": "What we’re looking for:",
+        "content": "\n<li>Experience being the first person in a role of its kind at a company</li>\n<li>Ability to iterate on technical product messaging</li>\n<li>Ability to manage an active opportunity pipeline</li>\n<li>Experience assisting customers with technical proof of concepts</li><p>[…]</p>"
+      },
+      {
+        "text": "Qualities we look for:",
+        "content": "\n<li>Ownership</li>\n<li>Comfortable with experiments</li>\n<li>Strong ability to sell</li>\n<li>Technical aptitude</li>\n"
+      }
+    ],
+    "text": "Enterprise Account Manager",
+    "country": "US",
+    "workplaceType": "remote",
+    "opening": "<div>Metabase is the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users. That's why people <a class=\"postings-link\" href=\"https://www.metabase.com/love\">love us</a>.</div>\n<div>&nbsp;</div><p>[…]</p>",
+    "openingPlain": "Metabase is the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users.  […]",
+    "descriptionBody": "<div>Metabase is looking for our first Account Manager to support our new cross sell motion. We have recently released Metabot, our new AI product, and releasing some even bigger things next year that are primed to make some splashes. We have thousands of customers today that we think will gain a lot of value from these products and are searching for the initial team that will help build and run t<p>[…]</p>",
+    "descriptionBodyPlain": "Metabase is looking for our first Account Manager to support our new cross sell motion. We have recently released Metabot, our new AI product, and releasing some even bigger things next year that are primed to make some splashes.  […]",
+    "hostedUrl": "https://jobs.lever.co/metabase/5c6ef24f-8f66-4085-b9c9-5aa7c95b8612",
+    "applyUrl": "https://jobs.lever.co/metabase/5c6ef24f-8f66-4085-b9c9-5aa7c95b8612/apply"
+  }
+]

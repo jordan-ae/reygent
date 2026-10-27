@@ -1,0 +1,53 @@
+<!doctype html>
+<!--
+  A CAPTCHA-free form with screening questions of every kind the operator has to tell
+  apart: a required free-text question, an optional choice, a required sensitive
+  choice (visa sponsorship) and an optional free-text one.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Apply - Platform Engineer</title>
+  </head>
+  <body>
+    <main>
+      <h1>Platform Engineer (contract)</h1>
+      <form method="post" action="/submit?from=custom" enctype="multipart/form-data">
+        <p><label for="name">Full name *</label><input id="name" name="name" type="text" required /></p>
+        <p><label for="email">Email *</label><input id="email" name="email" type="email" required /></p>
+        <p><label for="resume">Resume *</label><input id="resume" name="resume" type="file" required /></p>
+        <p>
+          <label for="years">How many years of TypeScript experience do you have? *</label>
+          <input id="years" name="years" type="text" required />
+        </p>
+        <p>
+          <label for="notice">What is your notice period?</label>
+          <select id="notice" name="notice">
+            <option value="">Please select</option>
+            <option value="now">Immediately</option>
+            <option value="2w">2 weeks</option>
+            <option value="1m">1 month</option>
+          </select>
+        </p>
+        <p>
+          <label for="sponsorship">Will you require visa sponsorship? *</label>
+          <select id="sponsorship" name="sponsorship" required>
+            <option value="">Please select</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </p>
+        <fieldset>
+          <legend>Which engagement do you prefer?</legend>
+          <label><input type="radio" name="engagement" value="b2b" /> B2B contract</label>
+          <label><input type="radio" name="engagement" value="payroll" /> Payroll</label>
+        </fieldset>
+        <p>
+          <label for="setup">Anything we should know about your setup?</label>
+          <input id="setup" name="setup" type="text" />
+        </p>
+        <p><button type="submit">Submit application</button></p>
+      </form>
+    </main>
+  </body>
+</html>

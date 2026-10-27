@@ -1,0 +1,51 @@
+<!doctype html>
+<!--
+  A form in three steps, as many careers sites build them: each step shows only its own
+  fields, "Continue" checks them before moving on, and the last step only reviews and
+  sends. No step has a button the fixed patterns call Submit until the last.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Apply - Platform Engineer</title>
+    <style>[hidden] { display: none !important; }</style>
+  </head>
+  <body>
+    <main>
+      <h1>Platform Engineer</h1>
+      <form id="wizard" method="post" action="/submit?from=wizard" enctype="multipart/form-data">
+        <section id="s1">
+          <h2>Step 1 of 3: About you</h2>
+          <p><label for="a">First name *</label><input id="a" name="first_name" required /></p>
+          <p><label for="b">Last name *</label><input id="b" name="last_name" required /></p>
+          <p><label for="c">Email address *</label><input id="c" name="email" type="email" required /></p>
+          <button type="button" data-next="s2">Continue</button>
+        </section>
+        <section id="s2" hidden>
+          <h2>Step 2 of 3: Experience</h2>
+          <p><label for="d">Resume *</label><input id="d" name="resume" type="file" required /></p>
+          <p><label for="e">What is your notice period? *</label><input id="e" name="notice" required /></p>
+          <button type="button" data-next="s1">Back</button>
+          <button type="button" data-next="s3">Continue</button>
+        </section>
+        <section id="s3" hidden>
+          <h2>Step 3 of 3: Review</h2>
+          <p>Check your details, then send them to us.</p>
+          <button type="submit">Submit application</button>
+        </section>
+      </form>
+    </main>
+    <script>
+      for (const button of document.querySelectorAll("[data-next]")) {
+        button.addEventListener("click", () => {
+          const here = button.closest("section");
+          const forward = button.textContent.trim() === "Continue";
+          // A step is left forwards only once its fields hold what they must.
+          if (forward && ![...here.querySelectorAll("input")].every((input) => input.checkValidity())) return;
+          here.hidden = true;
+          document.getElementById(button.dataset.next).hidden = false;
+        });
+      }
+    </script>
+  </body>
+</html>

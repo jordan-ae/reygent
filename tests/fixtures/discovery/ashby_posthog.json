@@ -1,0 +1,63 @@
+{
+  "jobs": [
+    {
+      "id": "43dbf072-0fc1-48c9-8c1e-7416db7d4a14",
+      "title": "ClickHouse Operations Engineer ",
+      "department": "Engineering",
+      "team": "ClickHouse",
+      "employmentType": "FullTime",
+      "location": "Remote",
+      "shouldDisplayCompensationOnJobPostings": false,
+      "secondaryLocations": [],
+      "publishedAt": "2026-08-25T07:00:51.155+00:00",
+      "isListed": true,
+      "isRemote": true,
+      "workplaceType": "Remote",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "USA"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/posthog/43dbf072-0fc1-48c9-8c1e-7416db7d4a14",
+      "applyUrl": "https://jobs.ashbyhq.com/posthog/43dbf072-0fc1-48c9-8c1e-7416db7d4a14/application",
+      "descriptionHtml": "<h2>About PostHog</h2><p style=\"min-height:1.5em\">PostHog is your product’s context layer. It ingests and stores your analytics, errors, replays, and business data so you and your agents can query and act on it.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://posthog.com/handbook/story\"><u>We launched out of Y Combinator's W20 cohort</u></a>. We've since shipped more than a dozen products, including:</p><p>[…]</p>",
+      "descriptionPlain": "ABOUT POSTHOG\n\nPostHog is your product’s context layer. It ingests and stores your analytics, errors, replays, and business data so you and your agents can query and act on it.\n\nWe launched out of Y Combinator's W20 cohort https://posthog.com/handbook/story. We've since shipped more than a dozen products, including:\n\n […]",
+      "compensation": {
+        "compensationTierSummary": null,
+        "scrapeableCompensationSalarySummary": null,
+        "compensationTiers": [],
+        "summaryComponents": []
+      }
+    },
+    {
+      "id": "0be1b52c-2401-4ae2-b7fc-5d018c1ff96f",
+      "title": "Technical Customer Success Manager - EMEA",
+      "department": "Sales & Customer Success",
+      "team": "Customer Success",
+      "employmentType": "FullTime",
+      "location": "Remote (EMEA)",
+      "shouldDisplayCompensationOnJobPostings": false,
+      "secondaryLocations": [],
+      "publishedAt": "2026-09-18T08:41:19.683+00:00",
+      "isListed": true,
+      "isRemote": true,
+      "workplaceType": "Remote",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "European Union"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/posthog/0be1b52c-2401-4ae2-b7fc-5d018c1ff96f",
+      "applyUrl": "https://jobs.ashbyhq.com/posthog/0be1b52c-2401-4ae2-b7fc-5d018c1ff96f/application",
+      "descriptionHtml": "<h2>About PostHog</h2><p style=\"min-height:1.5em\">PostHog is your product’s context layer. It ingests and stores your analytics, errors, replays, and business data so you and your agents can query and act on it.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://posthog.com/handbook/story\"><u>We launched out of Y Combinator's W20 cohort</u></a>. We've since shipped more than a dozen products, including:</p><p>[…]</p>",
+      "descriptionPlain": "ABOUT POSTHOG\n\nPostHog is your product’s context layer. It ingests and stores your analytics, errors, replays, and business data so you and your agents can query and act on it.\n\nWe launched out of Y Combinator's W20 cohort https://posthog.com/handbook/story. We've since shipped more than a dozen products, including:\n\n […]",
+      "compensation": {
+        "compensationTierSummary": null,
+        "scrapeableCompensationSalarySummary": null,
+        "compensationTiers": [],
+        "summaryComponents": []
+      }
+    }
+  ],
+  "apiVersion": "1"
+}

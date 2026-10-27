@@ -1,0 +1,245 @@
+{
+  "exhaustive": {
+    "nbHits": true,
+    "typo": true
+  },
+  "exhaustiveNbHits": true,
+  "exhaustiveTypo": true,
+  "hits": [
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "nbraga"
+        },
+        "comment_text": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Chronograph (chronograph.pe) | Platform Engineer | Full-Time | Remote (US) | $175,000 - $215,000 USD + equity<p>[…]</p>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: Who is hiring? (October 2026)"
+        }
+      },
+      "_tags": [
+        "comment",
+        "author_nbraga",
+        "story_49922569"
+      ],
+      "author": "nbraga",
+      "comment_text": "Chronograph (chronograph.pe) | Platform Engineer | Full-Time | Remote (US) | $175,000 - $215,000 USD + equity<p>Chronograph was founded to bring next-generation technology to private capital markets. Through our suite of cloud-based analytics and data management solutions, we help many of the world&#x27;s largest and most sophisticated venture capital, private equity, and credit funds understand their investment performance in unprecedented detail. As our business grows, we&#x27;re expanding the team, backed by a recent $140M+ growth equity raise.<p>[…]</p>",
+      "created_at": "2026-10-10T13:55:55Z",
+      "created_at_i": 1791640555,
+      "objectID": "50033036",
+      "parent_id": 49922569,
+      "story_id": 49922569,
+      "story_title": "Ask HN: Who is hiring? (October 2026)",
+      "updated_at": "2026-10-10T20:53:32Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "lassiecoder"
+        },
+        "comment_text": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Location: Bangalore, India (IST, UTC+5:30)<p>Remote: Yes<p>Willing to relocate: No<p>[…]</p>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: Who is hiring? (October 2026)"
+        }
+      },
+      "_tags": [
+        "comment",
+        "author_lassiecoder",
+        "story_49922569"
+      ],
+      "author": "lassiecoder",
+      "children": [
+        50037023
+      ],
+      "comment_text": "Location: Bangalore, India (IST, UTC+5:30)<p>Remote: Yes<p>Willing to relocate: No<p>Technologies: React Native, React, Next.js, TypeScript, JavaScript, Astro, Expo, Redux Toolkit, Zustand, React Query, Node.js, Express, MongoDB, Firebase, Jest, React Testing Library, GitHub Actions, Fastlane, AWS, Gemini API, Azure OpenAI, Claude Code, Cursor<p>Résumé&#x2F;CV: <a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1banj1xCIv-wA9n7xUG4vkelBbFuffQJL&#x2F;view\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1banj1xCIv-wA9n7xUG4vkelBbFu...</a>\nPortfolio: <a href=\"https:&#x2F;&#x2F;lassiecoder.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;lassiecoder.com&#x2F;</a>\nGitHub: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;lassiecoder\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;lassiecoder</a>\nLinkedIn: <a href=\"https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;lassiecoder\" rel=\"nofollow\">https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;lassiecoder</a>\nEmail: hirepriyankasharma@gmail.com<p>[…]</p>",
+      "created_at": "2026-10-09T19:05:22Z",
+      "created_at_i": 1791572722,
+      "objectID": "50025234",
+      "parent_id": 49922569,
+      "story_id": 49922569,
+      "story_title": "Ask HN: Who is hiring? (October 2026)",
+      "updated_at": "2026-10-10T20:49:16Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Aarhus_Behzad"
+        },
+        "comment_text": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "I lead the A3 Lab at Aarhus University and are hiring a Three-year PhD in Physical AI; onsite in Aarhus, Denmark.<p>[…]</p>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: Who is hiring? (October 2026)"
+        }
+      },
+      "_tags": [
+        "comment",
+        "author_Aarhus_Behzad",
+        "story_49922569"
+      ],
+      "author": "Aarhus_Behzad",
+      "comment_text": "I lead the A3 Lab at Aarhus University and are hiring a Three-year PhD in Physical AI; onsite in Aarhus, Denmark.<p>Topics: Vision–language–action models, world models, reliable adaptation and efficient AI, RL.\nBackground: Relevant master’s degree and strong Python&#x2F;PyTorch experience.\nDeadline: 1 November 2026.\nStart: January 2027 or later.\nContact: behzad@ece.au.dk.\nOfficial application link: <a href=\"https:&#x2F;&#x2F;phd.tech.au.dk&#x2F;for-applicants&#x2F;apply-here&#x2F;saeropslag&#x2F;phd-position-in-physical-ai-adaptive-foundation-models-for-robotics?utm_source=chatgpt.com\" rel=\"nofollow\">https:&#x2F;&#x2F;phd.tech.au.dk&#x2F;for-applicants&#x2F;apply-here&#x2F;saeropslag&#x2F;...</a>",
+      "created_at": "2026-10-09T15:25:40Z",
+      "created_at_i": 1791559540,
+      "objectID": "50021883",
+      "parent_id": 49922569,
+      "story_id": 49922569,
+      "story_title": "Ask HN: Who is hiring? (October 2026)",
+      "updated_at": "2026-10-09T15:27:02Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "RitaSand"
+        },
+        "comment_text": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Mastra | AI Engineer | REMOTE (AMER or EMEA time zones) | Full-time\nMastra is the open-source TypeScript framework for building AI agents (agents, workflows, me<p>[…]</p>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: Who is hiring? (October 2026)"
+        }
+      },
+      "_tags": [
+        "comment",
+        "author_RitaSand",
+        "story_49922569"
+      ],
+      "author": "RitaSand",
+      "children": [
+        50022154,
+        50016684
+      ],
+      "comment_text": "Mastra | AI Engineer | REMOTE (AMER or EMEA time zones) | Full-time\nMastra is the open-source TypeScript framework for building AI agents (agents, workflows, memory, evals, tracing). From the team behind Gatsby, YC-backed, <a href=\"https:&#x2F;&#x2F;github.com&#x2F;mastra-ai&#x2F;mastra\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;mastra-ai&#x2F;mastra</a><p>Why: \nWe’re starting to build more and more agentic features into Mastra: Trace intelligence, and we’re working on various Agent Learning features to automatically self-improve agents (Autoevals + Suggestions, Rollouts). \nIn addition, we’ve been increasingly running Mastra primitives like memory on industry-standard benchmarks and using the results to fine-tune configuration.<p>You have:\nShipped agents and agentic applications into production\nTuned and tweaked them to improve accuracy\nYou need to be able to benchmark your results against existing datasets, or intelligently creating<p>Apply: {<a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;mastra&#x2F;531a3fe8-556f-4b83-bee7-20374f67f980\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;mastra&#x2F;531a3fe8-556f-4b83-bee7-2037...</a>} We get back to everyone.",
+      "created_at": "2026-10-07T16:59:27Z",
+      "created_at_i": 1791392367,
+      "objectID": "49995549",
+      "parent_id": 49922569,
+      "story_id": 49922569,
+      "story_title": "Ask HN: Who is hiring? (October 2026)",
+      "updated_at": "2026-10-09T15:42:47Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "whh"
+        },
+        "comment_text": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Flowstate (London, UK) — Founding Engineer — TypeScript / React / Postgres / AI<p>[…]</p>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: Who is hiring? (October 2026)"
+        }
+      },
+      "_tags": [
+        "comment",
+        "author_whh",
+        "story_49922569"
+      ],
+      "author": "whh",
+      "children": [
+        49995338
+      ],
+      "comment_text": "Flowstate (London, UK) — Founding Engineer — TypeScript &#x2F; React &#x2F; Postgres &#x2F; AI<p>Flowstate (<a href=\"https:&#x2F;&#x2F;www.flowstate.inc\" rel=\"nofollow\">https:&#x2F;&#x2F;www.flowstate.inc</a>) is building infrastructure for the emerging human + AI workforce.<p>Companies are rapidly adopting Claude, ChatGPT, Cursor, Copilot and internal agents, but most still have very little idea what that AI is actually doing, what it costs, what work it contributes to or whether it is making the organisation better.<p>We’re building the systems underneath that: an AI router and proxy, native macOS and Windows apps, attribution infrastructure that connects AI activity back to work and tools for understanding how humans and AI should operate together inside a company.<p>We’re a small early-stage team and this is a genuinely broad founding engineering role. You’ll work across product, infrastructure, integrations, desktop apps, AI systems and whatever else needs building. We’re looking for someone who has worked in an early-stage startup before and actually enjoys the pace, ambiguity and ownership that comes with it.<p>[…]</p>",
+      "created_at": "2026-10-07T12:11:44Z",
+      "created_at_i": 1791375104,
+      "objectID": "49991656",
+      "parent_id": 49922569,
+      "story_id": 49922569,
+      "story_title": "Ask HN: Who is hiring? (October 2026)",
+      "updated_at": "2026-10-07T16:47:21Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "comograph"
+        },
+        "comment_text": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Comograph | Go-To-Market (GTM) Specialist | Remote (Global / US/EU/Africa time zones welcome) | Full-time / Contract - Equity only  for current stage.<p>[…]</p>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: Who is hiring? (October 2026)"
+        }
+      },
+      "_tags": [
+        "comment",
+        "author_comograph",
+        "story_49922569"
+      ],
+      "author": "comograph",
+      "children": [
+        50007307
+      ],
+      "comment_text": "Comograph | Go-To-Market (GTM) Specialist | Remote (Global &#x2F; US&#x2F;EU&#x2F;Africa time zones welcome) | Full-time &#x2F; Contract - Equity only  for current stage.<p>About Comograph:\nWe are building an engineering recruitment and skill verification platform focused on evidence-based hiring through task-based evaluations. We help tech teams eliminate resume noise and evaluate software engineers on real-world coding and architectural capabilities.<p>The Role:\nWe are looking for a hands-on Go-To-Market (GTM) Specialist &#x2F; Growth Lead to own our early customer acquisition strategy, lead generation, outbound sales pipelines, and position Comograph in front of engineering leaders and talent acquisition teams.<p>What You&#x27;ll Do:<p>Design and execute outbound B2B sales sequences targeting Engineering Managers, CTOs, and Technical Recruiters.<p>Build growth loops across developer communities, LinkedIn, and cold outbound channels.<p>Own early-stage sales discovery calls, demos, and customer onboarding feedback loops.<p>Craft compelling content, case studies, and messaging around evidence-based technical hiring.<p>What We’re Looking For:<p>[…]</p>",
+      "created_at": "2026-10-06T10:01:29Z",
+      "created_at_i": 1791280889,
+      "objectID": "49976350",
+      "parent_id": 49922569,
+      "story_id": 49922569,
+      "story_title": "Ask HN: Who is hiring? (October 2026)",
+      "updated_at": "2026-10-08T15:49:39Z"
+    }
+  ],
+  "hitsPerPage": 6,
+  "nbHits": 11,
+  "nbPages": 2,
+  "page": 0,
+  "params": "tags=comment%2Cstory_49922569&numericFilters=parent_id%3D49922569&hitsPerPage=6&page=0&advancedSyntax=true&analyticsTags=backend",
+  "processingTimeMS": 3,
+  "processingTimingsMS": {
+    "_request": {
+      "queue": 72,
+      "roundTrip": 23
+    },
+    "afterFetch": {
+      "format": {
+        "highlighting": 12,
+        "total": 14
+      }
+    },
+    "fetch": {
+      "total": 1
+    },
+    "total": 3
+  },
+  "query": "",
+  "serverTimeMS": 90
+}

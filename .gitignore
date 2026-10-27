@@ -1,0 +1,23 @@
+# Personal details and local state
+config.yaml
+config.yaml.bak
+*.db
+*.db-wal
+*.db-shm
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Claude Code worktrees
+.claude/worktrees/
+
+# Node / Next.js
+node_modules/
+.next/
+*.tsbuildinfo
+next-env.d.ts
+
+# Personal notes kept out of the repo
+docs/reygent_handoff_prompt.md

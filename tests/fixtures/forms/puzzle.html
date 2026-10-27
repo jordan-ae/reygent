@@ -1,0 +1,35 @@
+<!doctype html>
+<!--
+  A form whose passive check decides, when Submit is pressed, that it wants a person:
+  the challenge frame that was parked off-screen (as reCAPTCHA parks it) comes into
+  view, and nothing is sent. Until then the page looks like any passively checked form.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Apply - Security Engineer</title>
+    <style>
+      #challenge { visibility: hidden; position: absolute; top: -10000px; left: 0; width: 100%; }
+      #challenge.open { visibility: visible; top: 40px; }
+      #challenge iframe { width: 400px; height: 580px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Security Engineer</h1>
+      <form id="application" method="post" action="/submit?from=puzzle">
+        <p><label for="name">Full name</label><input id="name" name="name" type="text" required /></p>
+        <p><label for="email">Email</label><input id="email" name="email" type="email" required /></p>
+        <p><label for="github">GitHub</label><input id="github" name="github" type="url" /></p>
+        <p><button type="submit">Submit application</button></p>
+      </form>
+    </main>
+    <div id="challenge"><div><iframe title="recaptcha challenge expires in two minutes" src="/recaptcha/bframe"></iframe></div></div>
+    <script>
+      document.getElementById("application").addEventListener("submit", function (event) {
+        event.preventDefault();
+        document.getElementById("challenge").className = "open";
+      });
+    </script>
+  </body>
+</html>

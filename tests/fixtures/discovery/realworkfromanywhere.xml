@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remote Jobs - Real Work From Anywhere</title>
+    <description>Latest remote job opportunities from companies that truly support work from anywhere</description>
+    <link>https://www.realworkfromanywhere.com</link>
+    <atom:link href="https://www.realworkfromanywhere.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Oct 2026 16:46:22 GMT</lastBuildDate>
+    <ttl>60</ttl>
+    <image>
+      <url>https://www.realworkfromanywhere.com/og.png</url>
+      <title>Real Work From Anywhere</title>
+      <link>https://www.realworkfromanywhere.com</link>
+    </image>
+    <item>
+          <title><![CDATA[Platform Engineer, Managed Postgres at Supabase]]></title>
+          <description><![CDATA[<h2><strong>About Supabase</strong></h2><p style="min-height:1.5em">Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth.</p><p style="min-height:1.5em"></p><h2><strong>About the Role</strong></h2><p […]]]></description>
+          <link>https://www.realworkfromanywhere.com/jobs/platform-engineer-managed-postgres-supabase-3762</link>
+          <guid>https://www.realworkfromanywhere.com/jobs/platform-engineer-managed-postgres-supabase-3762</guid>
+          <pubDate>Fri, 09 Oct 2026 17:17:39 GMT</pubDate>
+          <author><![CDATA[Supabase]]></author>
+          <enclosure url="https://avatars.githubusercontent.com/u/54469796?s=200&v=4" type="image/jpeg" length="0" />
+        </item>
+    <item>
+          <title><![CDATA[Senior Product Operations Manager at LiveKit]]></title>
+          <description><![CDATA[<h2>About LiveKit </h2><p style="min-height:1.5em">LiveKit is building the infrastructure layer for the agentic era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe AI agents in production. Founded in 2021, LiveKit powers voice and agentic AI applications for tens of thousands of developers, collectively facilitating billions of calls each year: language […]]]></description>
+          <link>https://www.realworkfromanywhere.com/jobs/senior-product-operations-manager-livekit-3925</link>
+          <guid>https://www.realworkfromanywhere.com/jobs/senior-product-operations-manager-livekit-3925</guid>
+          <pubDate>Fri, 09 Oct 2026 21:24:31 GMT</pubDate>
+          <author><![CDATA[LiveKit]]></author>
+          <enclosure url="https://avatars.githubusercontent.com/u/69438833?s=200&v=4" type="image/jpeg" length="0" />
+        </item>
+    <item>
+          <title><![CDATA[Senior Frontend Engineer, React/Typescript at DuckDuckGo]]></title>
+          <description><![CDATA[<h1><strong>Who We Are</strong></h1><p style="min-height:1.5em">Hi, we're DuckDuckGo, the online protection company and remote-first team of 300+ on a mission to raise the standard of trust online. Founded in 2008 and profitable since 2014, annual revenue now exceeds $100m USD and millions use our browser on on <a target="_blank" rel="noopener noreferrer nofollow" class="ProsemirrorEditor-link" […]]]></description>
+          <link>https://www.realworkfromanywhere.com/jobs/senior-frontend-engineer-react-typescript-duckduckgo-8583</link>
+          <guid>https://www.realworkfromanywhere.com/jobs/senior-frontend-engineer-react-typescript-duckduckgo-8583</guid>
+          <pubDate>Wed, 30 Sep 2026 20:01:27 GMT</pubDate>
+          <author><![CDATA[DuckDuckGo]]></author>
+          <enclosure url="https://avatars.githubusercontent.com/u/342708?s=200&v=4" type="image/jpeg" length="0" />
+        </item>
+</channel>
+</rss>

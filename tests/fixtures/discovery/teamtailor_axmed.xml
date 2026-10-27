@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:tt="https://teamtailor.com/locations">
+  <channel>
+    <title>Axmed</title>
+    <description>Current job openings</description>
+    <link>https://axmed.teamtailor.com/jobs</link>
+    <item>
+      <title>AI Engineer</title>
+      <description>&lt;p&gt;&lt;strong&gt;Our Vision&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We believe in a world where everyone, regardless of their country’s wealth or frontiers, enjoys access to medicines and healthcare when they need it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Our Mission&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We work tirelessly to remove access barriers faced by patients and caregivers across Low and Middle-Income Countries (LMICs) […]</description>
+      <pubDate>Wed, 05 Aug 2026 16:00:15 +0100</pubDate>
+      <link>https://axmed.teamtailor.com/jobs/8175859-ai-engineer</link>
+      <remoteStatus>fully</remoteStatus>
+      <guid>b944e119-b43d-475f-b2bf-144a45ffd2da</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name>Spain, Remote</tt:name>
+          <tt:address>Spain</tt:address>
+          <tt:zip/>
+          <tt:city>Remote</tt:city>
+          <tt:country>Spain</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Technology</tt:department>
+      <tt:role/>
+    </item>
+    <item>
+      <title>QMS Lead</title>
+      <description>&lt;p&gt;&lt;strong&gt;Our Vision&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We believe in a world where everyone, regardless of their country’s wealth or frontiers, enjoys access to medicines and healthcare when they need it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Our Mission&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We work tirelessly to remove access barriers faced by patients and caregivers across Low and Middle-Income Countries (LMICs) […]</description>
+      <pubDate>Fri, 04 Sep 2026 16:42:08 +0100</pubDate>
+      <link>https://axmed.teamtailor.com/jobs/8325436-qms-lead</link>
+      <remoteStatus>none</remoteStatus>
+      <guid>3259506c-c196-4072-95b1-bbfddd48233b</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name>Kenya, Remote</tt:name>
+          <tt:address>Kenya</tt:address>
+          <tt:zip/>
+          <tt:city>Remote</tt:city>
+          <tt:country>Kenya</tt:country>
+        </tt:location>
+        <tt:location>
+          <tt:name>Nigeria, Remote</tt:name>
+          <tt:address>Nigeria</tt:address>
+          <tt:zip/>
+          <tt:city>Remote</tt:city>
+          <tt:country>Nigeria</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Operations</tt:department>
+      <tt:role/>
+    </item>
+    <item>
+      <title>Global Health Advisory - Principal</title>
+      <description>&lt;h5&gt;Our Vision:&lt;/h5&gt;&lt;p&gt;We believe in a world where everyone, regardless of their country’s wealth or frontiers, enjoys access to medicines and healthcare when they need it.&lt;/p&gt;&lt;h5&gt;Our Mission:&lt;/h5&gt;&lt;p&gt;We work tirelessly to remove access barriers faced by patients and caregivers across Low and Middle-Income Countries (LMICs) when seeking quality medicines and quality […]</description>
+      <pubDate>Fri, 18 Sep 2026 12:24:52 +0100</pubDate>
+      <link>https://axmed.teamtailor.com/jobs/8402945-global-health-advisory-principal</link>
+      <remoteStatus>fully</remoteStatus>
+      <guid>444b3359-4efa-4318-9c7a-cbee71e3b11f</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name>Switzerland, Remote</tt:name>
+          <tt:address>Switzerland</tt:address>
+          <tt:zip/>
+          <tt:city>Remote</tt:city>
+          <tt:country>Switzerland</tt:country>
+        </tt:location>
+        <tt:location>
+          <tt:name>Spain, Remote</tt:name>
+          <tt:address>Spain</tt:address>
+          <tt:zip/>
+          <tt:city>Remote</tt:city>
+          <tt:country>Spain</tt:country>
+        </tt:location>
+        <tt:location>
+          <tt:name>Kenya, Remote</tt:name>
+          <tt:address>Kenya</tt:address>
+          <tt:zip/>
+          <tt:city>Remote</tt:city>
+          <tt:country>Kenya</tt:country>
+        </tt:location>
+        <tt:location>
+          <tt:name>Nigeria, Remote</tt:name>
+          <tt:address>Nigeria</tt:address>
+          <tt:zip/>
+          <tt:city>Remote</tt:city>
+          <tt:country>Nigeria</tt:country>
+        </tt:location>
+        <tt:location>
+          <tt:name>South Africa, Remote</tt:name>
+          <tt:address>South Africa</tt:address>
+          <tt:zip/>
+          <tt:city>Remote</tt:city>
+          <tt:country>South Africa</tt:country>
+        </tt:location>
+        <tt:location>
+          <tt:name>United Kingdom, Remote</tt:name>
+          <tt:address>United Kingdom</tt:address>
+          <tt:zip/>
+          <tt:city>London</tt:city>
+          <tt:country>United Kingdom</tt:country>
+        </tt:location>
+        <tt:location>
+          <tt:name>Accra, Remote</tt:name>
+          <tt:address/>
+          <tt:zip/>
+          <tt:city>Accra</tt:city>
+          <tt:country>Ghana</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Advisory</tt:department>
+      <tt:role>Principal</tt:role>
+    </item>
+</channel>
+</rss>

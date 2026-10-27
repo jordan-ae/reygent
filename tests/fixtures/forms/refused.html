@@ -1,0 +1,34 @@
+<!doctype html>
+<!--
+  A form whose site turns the submission down, worded as Ashby words it (the failure
+  panel in its front-end bundle): the request goes out, and what comes back is a
+  refusal shown in place — no confirmation, no challenge.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Apply - Support Engineer</title>
+  </head>
+  <body>
+    <main>
+      <h1>Support Engineer</h1>
+      <div id="outcome"></div>
+      <form id="application" method="post" action="/refuse">
+        <p><label for="name">Full name</label><input id="name" name="name" type="text" required /></p>
+        <p><label for="email">Email</label><input id="email" name="email" type="email" required /></p>
+        <p><label for="linkedin">LinkedIn</label><input id="linkedin" name="linkedin" type="url" /></p>
+        <p><button type="submit">Submit application</button></p>
+      </form>
+    </main>
+    <script>
+      document.getElementById("application").addEventListener("submit", function (event) {
+        event.preventDefault();
+        fetch("/refuse", { method: "POST", body: new FormData(event.target) }).then(function () {
+          document.getElementById("outcome").innerHTML =
+            '<div class="ashby-application-form-failure-container"><div role="alert" aria-live="assertive">' +
+            "<h2>We couldn't submit your application</h2><p>Your application was flagged as possible spam.</p></div></div>";
+        });
+      });
+    </script>
+  </body>
+</html>

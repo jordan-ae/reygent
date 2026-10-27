@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss">
+  <channel>
+    <title>We Work Remotely: Remote jobs in design, programming, marketing and more</title>
+    <link>https://weworkremotely.com/remote-jobs.rss</link>
+    <description>We Work Remotely: Remote jobs in design, programming, marketing and more</description>
+    <language>en-US</language>
+    <ttl>60</ttl>
+    <item>
+      <title>Toptal: Applied AI Engineers for telecommunications company</title>
+      <region>USA Only</region>
+      <country></country>
+      <state></state>
+      <skills></skills>
+      <category>Full-Stack Programming</category>
+      <type>Full-Time</type>
+      <description>&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; 
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Senior AI Professional will help design, develop, and optimize production-grade agentic AI solutions. This role complements an existing platform engineering team and focuses on turning AI concepts into reliable, scalable software rather than purely research-oriented […]</description>
+      <pubDate>Mon, 12 Oct 2026 16:38:01 +0000</pubDate>
+      <expires_at>Wed, 11 Nov 2026 16:38:01 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/toptal-applied-ai-engineers-for-telecommunications-company</guid>
+      <link>https://weworkremotely.com/remote-jobs/toptal-applied-ai-engineers-for-telecommunications-company</link>
+    </item>
+    <item>
+      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0171/6528/logo.gif" type="image/png"/>
+      <title>Semaphore: Senior Product Engineer</title>
+      <region>Anywhere in the World</region>
+      <country>🇦🇷 Argentina, 🇧🇷 Brazil, 🇵🇱 Poland, 🇵🇹 Portugal, 🇷🇴 Romania, and 🇷🇸 Serbia</country>
+      <state>Anse aux Pins</state>
+      <skills></skills>
+      <category>Product</category>
+      <type>Contract</type>
+      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0171/6528/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; Novi Sad
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://semaphore.io/"&gt;https://semaphore.io/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About […]</description>
+      <pubDate>Tue, 06 Oct 2026 08:44:40 +0000</pubDate>
+      <expires_at>Thu, 05 Nov 2026 08:44:40 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/semaphore-senior-product-engineer</guid>
+      <link>https://weworkremotely.com/remote-jobs/semaphore-senior-product-engineer</link>
+    </item>
+    <item>
+      <title>Spiralyze: Project Manager</title>
+      <region>Anywhere in the World</region>
+      <country></country>
+      <state>Georgia</state>
+      <skills></skills>
+      <category>Management and Finance</category>
+      <type>Full-Time</type>
+      <description>&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; Atlanta, Georgia
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://www.spiralyze.com/"&gt;https://www.spiralyze.com/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div class="external-panel__trix-content external-panel__trix-content--colored external-panel__trix-content--lead-in"&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;The Project Manager is a client-facing role at […]</description>
+      <pubDate>Wed, 08 Jul 2026 12:07:36 +0000</pubDate>
+      <expires_at>Thu, 05 Nov 2026 17:40:02 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/spiralyze-project-manager-1</guid>
+      <link>https://weworkremotely.com/remote-jobs/spiralyze-project-manager-1</link>
+    </item>
+    <item>
+      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0171/6491/logo.gif" type="image/png"/>
+      <title>bondex: Fullstack Web3 Engineer (Solidity / Rust / Typescript)</title>
+      <region>Remote - Americas</region>
+      <country></country>
+      <state></state>
+      <skills>Cross-Browser Development, Cryptocurrency, and Cross-Selling</skills>
+      <category>Front-End Programming</category>
+      <type>Full-Time</type>
+      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0171/6491/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; Remote - Americas, El Salvador
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="http://bondex.app"&gt;http://bondex.app&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div […]</description>
+      <pubDate>Tue, 29 Sep 2026 19:13:52 +0000</pubDate>
+      <expires_at>Thu, 29 Oct 2026 19:13:52 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/bondex-fullstack-web3-engineer-solidity-rust-typescript</guid>
+      <link>https://weworkremotely.com/remote-jobs/bondex-fullstack-web3-engineer-solidity-rust-typescript</link>
+    </item>
+</channel>
+</rss>

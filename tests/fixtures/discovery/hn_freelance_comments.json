@@ -1,0 +1,94 @@
+{
+  "exhaustive": {
+    "nbHits": true,
+    "typo": true
+  },
+  "exhaustiveNbHits": true,
+  "exhaustiveTypo": true,
+  "hits": [
+    {
+      "_tags": [
+        "comment",
+        "author_fnmnlmusic",
+        "story_48358236"
+      ],
+      "author": "fnmnlmusic",
+      "children": [
+        48444361,
+        48438081,
+        48427133
+      ],
+      "comment_text": "SEEKING FREELANCER | Remote (US+EU only)<p>Stack: Vue3, Ruby+Sinatra, Postgres, Railway, Cloudflare<p>We&#x27;ve built a new platform in the electronic music space, currently in limited beta, and we are seeking freelancers who love electronic music  to help us with design, UI&#x2F;UX, and infrastructure (major bonus points if you&#x27;re an artist or promoter, or you travel extensively with music as a primary focus).<p>1) We want to scale our infrastructure up to 500 RPS while minimizing costs when it isn&#x27;t in a burst period, validate that with load-testing, and set up monitoring, alerts, and auto-recovery mechanisms where possible.<p>2) We&#x27;d like a complete design and UI&#x2F;UX refresh. This can be an individual who holds both sets of skills or two distinct people.<p>Please email ${this_username}@gmail.com if this sounds like a fit; every application will receive a response.",
+      "created_at": "2026-06-01T19:12:37Z",
+      "created_at_i": 1780341157,
+      "objectID": "48361270",
+      "parent_id": 48358236,
+      "story_id": 48358236,
+      "story_title": "Ask HN: Freelancer? Seeking freelancer? (June 2026)",
+      "updated_at": "2026-06-14T09:29:24Z"
+    },
+    {
+      "_tags": [
+        "comment",
+        "author_jcbbb",
+        "story_48358236"
+      ],
+      "author": "jcbbb",
+      "comment_text": "SEEKING WORK - Full stack Engineer<p>* Location: Uzbekistan<p>* Remote: Yes<p>* Willing to relocate: Yes<p>* Technologies: Go, JavaScript, Node.js, […]",
+      "created_at": "2026-06-15T06:51:06Z",
+      "created_at_i": 1781506266,
+      "objectID": "48537507",
+      "parent_id": 48358236,
+      "story_id": 48358236,
+      "story_title": "Ask HN: Freelancer? Seeking freelancer? (June 2026)",
+      "updated_at": "2026-06-24T14:26:18Z"
+    },
+    {
+      "_tags": [
+        "comment",
+        "author_davidolverson",
+        "story_48358236"
+      ],
+      "author": "davidolverson",
+      "comment_text": "SEEKING WORK | Richmond, VA | REMOTE (US)<p>Solo full-stack dev, US Army veteran. I ship production SaaS end to end: schema, auth, Stripe billing, […]",
+      "created_at": "2026-06-12T00:18:43Z",
+      "created_at_i": 1781223523,
+      "objectID": "48498233",
+      "parent_id": 48358236,
+      "story_id": 48358236,
+      "story_title": "Ask HN: Freelancer? Seeking freelancer? (June 2026)",
+      "updated_at": "2026-06-12T00:33:46Z"
+    }
+  ],
+  "hitsPerPage": 100,
+  "nbHits": 3,
+  "nbPages": 1,
+  "page": 0,
+  "params": "tags=comment%2Cstory_48358236&numericFilters=parent_id%3D48358236&hitsPerPage=100&page=0&advancedSyntax=true&analyticsTags=backend",
+  "processingTimeMS": 6,
+  "processingTimingsMS": {
+    "_request": {
+      "roundTrip": 15
+    },
+    "afterFetch": {
+      "format": {
+        "highlighting": 1,
+        "total": 2
+      },
+      "merge": {
+        "mergeLoop": {
+          "prepareNextHit": 3,
+          "total": 3
+        },
+        "total": 4
+      },
+      "total": 4
+    },
+    "fetch": {
+      "total": 1
+    },
+    "total": 6
+  },
+  "query": "",
+  "serverTimeMS": 8
+}

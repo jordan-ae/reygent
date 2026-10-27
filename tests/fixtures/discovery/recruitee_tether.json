@@ -1,0 +1,419 @@
+{
+  "offers": [
+    {
+      "position": 3832,
+      "options_cover_letter": "optional",
+      "locations_question_required": true,
+      "location_question_visible": true,
+      "country": "Albania",
+      "state_name": "Tiranë",
+      "experience_code": "experienced",
+      "locations": [
+        {
+          "id": 274040,
+          "name": "Albania, Tiranë",
+          "state": "Tiranë",
+          "country": "Albania",
+          "city": "Tiranë",
+          "translations": {
+            "en": {
+              "name": "Albania, Tiranë",
+              "city": "Tiranë",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "AL",
+          "state_code": "11",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        },
+        {
+          "id": 274038,
+          "name": "Andorra",
+          "state": "Andorra la Vella",
+          "country": "Andorra",
+          "city": "Andorra la Vella",
+          "translations": {
+            "en": {
+              "name": "Andorra",
+              "city": "Andorra la Vella",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "AD",
+          "state_code": "07",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        }
+      ],
+      "options_cv": "required",
+      "requirements": "<ul><li><p>Proven experience with React/Preact and modern JavaScript/TypeScript in production-scale applications.</p></li><li><p>Strong competency in state management (Redux, Redux Toolkit, Zustand, or similar).</p></li><li><p>Ability to write modular, maintainable, and well tested code.</p></li><li><p>Solid skillset in testing &amp; debugging complex frontend applications.</p></li><li><p>Deep interest or experience with P2P technologies or distributed […]",
+      "postal_code": null,
+      "options_title": "off",
+      "education_code": "bachelor_degree",
+      "salary": {
+        "max": null,
+        "min": null,
+        "period": null,
+        "currency": null
+      },
+      "employment_type_code": "fulltime_permanent",
+      "location": "Remote job",
+      "guid": "l9vrf",
+      "city": "Tiranë",
+      "options_photo": "off",
+      "translations": {
+        "en": {
+          "description": "<p><strong><em>Join Tether and Shape the Future of Digital Finance</em></strong></p><p>At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, […]",
+          "title": "Frontend Desktop Engineer (100% remote - Worldwide)",
+          "highlight": "<p style=\"min-height: 1.7em;\"></p><p style=\"min-height: 1.7em;\"></p>",
+          "requirements": "<ul><li><p>Proven experience with React/Preact and modern JavaScript/TypeScript in production-scale applications.</p></li><li><p>Strong competency in state management (Redux, Redux Toolkit, Zustand, or similar).</p></li><li><p>Ability to write modular, maintainable, and well tested code.</p></li><li><p>Solid skillset in testing &amp; debugging complex frontend applications.</p></li><li><p>Deep interest or experience with P2P technologies or distributed […]",
+          "sharing_image": null,
+          "locations_question": "What is your preferred work location?",
+          "sharing_description": "Join Tether and Shape the Future of Digital FinanceAt Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from excha",
+          "sharing_title": "Frontend Desktop Engineer (100% remote - Worldwide)"
+        }
+      },
+      "dynamic_fields": [],
+      "options_salutation": "off",
+      "min_hours": null,
+      "close_at": null,
+      "created_at": "2026-10-12 14:17:17 UTC",
+      "country_code": "AL",
+      "min_hours_per_week": null,
+      "tags": [
+        "Data"
+      ],
+      "options_phone": "required",
+      "max_hours": null,
+      "published_at": "2026-10-12 14:19:22 UTC",
+      "state_code": "11",
+      "updated_at": "2026-10-12 14:19:22 UTC",
+      "description": "<p><strong><em>Join Tether and Shape the Future of Digital Finance</em></strong></p><p>At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, […]",
+      "on_site": false,
+      "company_name": "Tether Operations Limited",
+      "category_code": "finance",
+      "remote": true,
+      "max_hours_per_week": null,
+      "cover_image": null,
+      "locations_question_type": "multiple_choice",
+      "mailbox_email": "job.l9vrf@tether.recruitee.com",
+      "open_questions": [
+        {
+          "id": 4430295,
+          "position": 1,
+          "options": {},
+          "required": false,
+          "body": "<p>To fairly assess candidates’ skills and experiences, please <strong>do not use AI tools</strong> when completing this application. Answers generated by AI may disqualify your application, as we’re looking for your own perspective and reasoning.</p>",
+          "kind": "infobox",
+          "translations": {
+            "en": {
+              "body": "<p>To fairly assess candidates’ skills and experiences, please <strong>do not use AI tools</strong> when completing this application. Answers generated by AI may disqualify your application, as we’re looking for your own perspective and reasoning.</p>"
+            }
+          },
+          "open_question_options": []
+        },
+        {
+          "id": 4430296,
+          "position": 2,
+          "options": {
+            "length": 120
+          },
+          "required": true,
+          "body": "Why are you interested in working at Tether?",
+          "kind": "video",
+          "translations": {
+            "en": {
+              "body": "Why are you interested in working at Tether?"
+            }
+          },
+          "open_question_options": []
+        }
+      ],
+      "highlight": "<p style=\"min-height: 1.7em;\"></p><p style=\"min-height: 1.7em;\"></p>",
+      "id": 2780406,
+      "careers_url": "https://careers.tether.io/o/frontend-desktop-engineer-100-remote-worldwide",
+      "sharing_image": null,
+      "sharing_title": "Frontend Desktop Engineer (100% remote - Worldwide)",
+      "title": "Frontend Desktop Engineer (100% remote - Worldwide)",
+      "careers_apply_url": "https://careers.tether.io/o/frontend-desktop-engineer-100-remote-worldwide/c/new",
+      "sharing_description": "Join Tether and Shape the Future of Digital FinanceAt Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from excha",
+      "status": "published",
+      "hybrid": false,
+      "locations_question": "What is your preferred work location?",
+      "slug": "frontend-desktop-engineer-100-remote-worldwide",
+      "department": "Data"
+    },
+    {
+      "position": 3831,
+      "options_cover_letter": "optional",
+      "locations_question_required": true,
+      "location_question_visible": false,
+      "country": "Switzerland",
+      "state_name": "Ticino",
+      "experience_code": "experienced",
+      "locations": [
+        {
+          "id": 25367,
+          "name": "Switzerland, Lugano",
+          "state": "Ticino",
+          "country": "Switzerland",
+          "city": "Lugano",
+          "translations": {
+            "en": {
+              "name": "Switzerland, Lugano",
+              "city": "Lugano",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "CH",
+          "state_code": "TI",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        }
+      ],
+      "options_cv": "required",
+      "requirements": "<p><span style=\"color:#000000\">List the qualifications, certifications, and experience needed for the role. You can split this into mandatory and preferred sections if needed.</span></p><ul><li><p><span style=\"color:#0F1115\">A degree in Computer Science&nbsp; or related field. Ideally PhD in NLP, Machine Learning, or a related field, complemented by a solid track record in AI R&amp;D (with good publications in A* conferences).</span></p></li><li><p><span […]",
+      "postal_code": null,
+      "options_title": "off",
+      "education_code": "bachelor_degree",
+      "salary": {
+        "max": null,
+        "min": null,
+        "period": null,
+        "currency": null
+      },
+      "employment_type_code": "fulltime_permanent",
+      "location": "Remote job",
+      "guid": "sbe22",
+      "city": "Lugano",
+      "options_photo": "off",
+      "translations": {
+        "en": {
+          "description": "<p><strong><em>Join Tether and Shape the Future of Digital Finance</em></strong></p><p>At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, […]",
+          "title": "AI Research Engineer (Model Compression & Quantization)",
+          "highlight": "<p style=\"min-height: 1.7em;\"></p><p style=\"min-height: 1.7em;\"></p>",
+          "requirements": "<p><span style=\"color:#000000\">List the qualifications, certifications, and experience needed for the role. You can split this into mandatory and preferred sections if needed.</span></p><ul><li><p><span style=\"color:#0F1115\">A degree in Computer Science&nbsp; or related field. Ideally PhD in NLP, Machine Learning, or a related field, complemented by a solid track record in AI R&amp;D (with good publications in A* conferences).</span></p></li><li><p><span […]",
+          "sharing_image": null,
+          "locations_question": "What is your preferred work location?",
+          "sharing_description": "Join Tether and Shape the Future of Digital FinanceAt Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from excha",
+          "sharing_title": "AI Research Engineer (Model Compression & Quantization)"
+        }
+      },
+      "dynamic_fields": [],
+      "options_salutation": "off",
+      "min_hours": null,
+      "close_at": null,
+      "created_at": "2026-10-12 09:07:57 UTC",
+      "country_code": "CH",
+      "min_hours_per_week": null,
+      "tags": [],
+      "options_phone": "required",
+      "max_hours": null,
+      "published_at": "2026-10-12 09:08:42 UTC",
+      "state_code": "TI",
+      "updated_at": "2026-10-12 09:08:42 UTC",
+      "description": "<p><strong><em>Join Tether and Shape the Future of Digital Finance</em></strong></p><p>At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, […]",
+      "on_site": false,
+      "company_name": "Tether Operations Limited",
+      "category_code": "internet",
+      "remote": true,
+      "max_hours_per_week": null,
+      "cover_image": null,
+      "locations_question_type": "multiple_choice",
+      "mailbox_email": "job.sbe22@tether.recruitee.com",
+      "open_questions": [
+        {
+          "id": 4138518,
+          "position": 1,
+          "options": {},
+          "required": false,
+          "body": "<p>To fairly assess candidates’ skills and experiences, please <strong>do not use AI tools</strong> when completing this application. Answers generated by AI may disqualify your application, as we’re looking for your own perspective and reasoning.</p>",
+          "kind": "infobox",
+          "translations": {
+            "en": {
+              "body": "<p>To fairly assess candidates’ skills and experiences, please <strong>do not use AI tools</strong> when completing this application. Answers generated by AI may disqualify your application, as we’re looking for your own perspective and reasoning.</p>"
+            }
+          },
+          "open_question_options": []
+        },
+        {
+          "id": 4138519,
+          "position": 2,
+          "options": {
+            "length": 120
+          },
+          "required": true,
+          "body": "Why are you interested in joining Tether?",
+          "kind": "video",
+          "translations": {
+            "en": {
+              "body": "Why are you interested in joining Tether?"
+            }
+          },
+          "open_question_options": []
+        }
+      ],
+      "highlight": "<p style=\"min-height: 1.7em;\"></p><p style=\"min-height: 1.7em;\"></p>",
+      "id": 2779562,
+      "careers_url": "https://careers.tether.io/o/ai-research-engineer-model-compression-quantization-zurich",
+      "sharing_image": null,
+      "sharing_title": "AI Research Engineer (Model Compression & Quantization)",
+      "title": "AI Research Engineer (Model Compression & Quantization)",
+      "careers_apply_url": "https://careers.tether.io/o/ai-research-engineer-model-compression-quantization-zurich/c/new",
+      "sharing_description": "Join Tether and Shape the Future of Digital FinanceAt Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from excha",
+      "status": "published",
+      "hybrid": false,
+      "locations_question": "What is your preferred work location?",
+      "slug": "ai-research-engineer-model-compression-quantization-zurich",
+      "department": "Data"
+    },
+    {
+      "position": 3837,
+      "options_cover_letter": "optional",
+      "locations_question_required": true,
+      "location_question_visible": false,
+      "country": "United States",
+      "state_name": "Florida",
+      "experience_code": "executive",
+      "locations": [
+        {
+          "id": 215860,
+          "name": "United States, Florida",
+          "state": "Florida",
+          "country": "United States",
+          "city": "Florida",
+          "translations": {
+            "en": {
+              "name": "United States, Florida",
+              "city": "Florida",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "US",
+          "state_code": "FL",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        }
+      ],
+      "options_cv": "required",
+      "requirements": "<p><strong>Preferred qualifications/Requirements:</strong></p><p>● 7–15 years of experience in corporate development, private equity, growth equity, strategic</p><p>investing, management consulting, operating leadership, or value creation roles.</p><p>● <strong>Knowledge of digital assets &amp; strong understanding of Tether’s ecosystem in mandatory</strong> </p><p>● Strong track record of driving commercial partnerships, strategic initiatives, and measurable</p><p>business […]",
+      "postal_code": null,
+      "options_title": "off",
+      "education_code": "bachelor_degree",
+      "salary": {
+        "max": null,
+        "min": null,
+        "period": null,
+        "currency": null
+      },
+      "employment_type_code": "fulltime_permanent",
+      "location": "Remote job",
+      "guid": "emfhc",
+      "city": "Florida",
+      "options_photo": "off",
+      "translations": {
+        "en": {
+          "description": "<p style=\"min-height: 1.7em;\"></p><p><strong><em>Join Tether and Shape the Future of Digital Finance</em></strong></p><p>At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive […]",
+          "title": "Corporate Development Portfolio Manager ( Fintech & Digital assets)",
+          "highlight": null,
+          "requirements": "<p><strong>Preferred qualifications/Requirements:</strong></p><p>● 7–15 years of experience in corporate development, private equity, growth equity, strategic</p><p>investing, management consulting, operating leadership, or value creation roles.</p><p>● <strong>Knowledge of digital assets &amp; strong understanding of Tether’s ecosystem in mandatory</strong> </p><p>● Strong track record of driving commercial partnerships, strategic initiatives, and measurable</p><p>business […]",
+          "sharing_image": null,
+          "locations_question": "What is your preferred work location?",
+          "sharing_description": "Join Tether and Shape the Future of Digital FinanceAt Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from excha",
+          "sharing_title": "Corporate Development Portfolio Manager ( Fintech & Digital assets)"
+        }
+      },
+      "dynamic_fields": [
+        {
+          "name": "Team ",
+          "value": null,
+          "translations": {
+            "en": {
+              "name": "Team ",
+              "value": null
+            }
+          }
+        }
+      ],
+      "options_salutation": "off",
+      "min_hours": null,
+      "close_at": null,
+      "created_at": "2026-10-12 15:00:13 UTC",
+      "country_code": "US",
+      "min_hours_per_week": null,
+      "tags": [],
+      "options_phone": "required",
+      "max_hours": null,
+      "published_at": "2026-10-12 15:01:59 UTC",
+      "state_code": "FL",
+      "updated_at": "2026-10-12 15:01:59 UTC",
+      "description": "<p style=\"min-height: 1.7em;\"></p><p><strong><em>Join Tether and Shape the Future of Digital Finance</em></strong></p><p>At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive […]",
+      "on_site": false,
+      "company_name": "Tether Operations Limited",
+      "category_code": "finance",
+      "remote": true,
+      "max_hours_per_week": null,
+      "cover_image": null,
+      "locations_question_type": "multiple_choice",
+      "mailbox_email": "job.emfhc@tether.recruitee.com",
+      "open_questions": [
+        {
+          "id": 4430504,
+          "position": 1,
+          "options": {},
+          "required": false,
+          "body": "<p>To fairly assess candidates’ skills and experiences, please <strong>do not use AI tools</strong> when completing this application. Answers generated by AI may disqualify your application, as we’re looking for your own perspective and reasoning.</p>",
+          "kind": "infobox",
+          "translations": {
+            "en": {
+              "body": "<p>To fairly assess candidates’ skills and experiences, please <strong>do not use AI tools</strong> when completing this application. Answers generated by AI may disqualify your application, as we’re looking for your own perspective and reasoning.</p>"
+            }
+          },
+          "open_question_options": []
+        },
+        {
+          "id": 4430505,
+          "position": 2,
+          "options": {
+            "length": 120
+          },
+          "required": true,
+          "body": "Why are you interested in working at Tether?",
+          "kind": "video",
+          "translations": {
+            "en": {
+              "body": "Why are you interested in working at Tether?"
+            }
+          },
+          "open_question_options": []
+        }
+      ],
+      "highlight": null,
+      "id": 2780494,
+      "careers_url": "https://careers.tether.io/o/corporate-development-portfolio-manager-fintech-digital-assets-3",
+      "sharing_image": null,
+      "sharing_title": "Corporate Development Portfolio Manager ( Fintech & Digital assets)",
+      "title": "Corporate Development Portfolio Manager ( Fintech & Digital assets)",
+      "careers_apply_url": "https://careers.tether.io/o/corporate-development-portfolio-manager-fintech-digital-assets-3/c/new",
+      "sharing_description": "Join Tether and Shape the Future of Digital FinanceAt Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from excha",
+      "status": "published",
+      "hybrid": false,
+      "locations_question": "What is your preferred work location?",
+      "slug": "corporate-development-portfolio-manager-fintech-digital-assets-3",
+      "department": null
+    }
+  ]
+}

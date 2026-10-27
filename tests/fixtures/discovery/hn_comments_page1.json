@@ -1,0 +1,207 @@
+{
+  "exhaustive": {
+    "nbHits": true,
+    "typo": true
+  },
+  "exhaustiveNbHits": true,
+  "exhaustiveTypo": true,
+  "hits": [
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Mark1648"
+        },
+        "comment_text": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Pairio (<a href=\"https://pairio.app\" rel=\"nofollow\">https://pairio.app</a>) | Senior Swift Engineer | REMOTE (Europe) | 32-40h/week | Employee or freelance | $6<p>[…]</p>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: Who is hiring? (October 2026)"
+        }
+      },
+      "_tags": [
+        "comment",
+        "author_Mark1648",
+        "story_49922569"
+      ],
+      "author": "Mark1648",
+      "comment_text": "Pairio (<a href=\"https:&#x2F;&#x2F;pairio.app\" rel=\"nofollow\">https:&#x2F;&#x2F;pairio.app</a>) | Senior Swift Engineer | REMOTE (Europe) | 32-40h&#x2F;week | Employee or freelance | $65k-$85k + equity<p>Pairio is a native macOS app for real-time screen sharing, built for people who work together. You share your screen, your teammate draws on it and takes over your keyboard. One click to call, no link, no invite. We use it every day to build it.<p>You&#x27;d work on pixel-perfect screen sharing (capture, encode, transport, rendering), one-click calling (WebRTC), drawing and remote control, privacy (app masking, encryption) and latency. The Swift app talks to a Rails backend, so bonus points if you&#x27;re comfortable on both sides.<p>We&#x27;re looking for deep native macOS or iOS experience in Swift, a real feel for UX and pixel-perfect UI, and someone who enjoys owning large parts of a product in a small team. Please be based in Europe so we have real overlap for pairing.<p>We&#x27;re four founders in Amsterdam running a healthy, profitable business. Stack: Swift, SwiftUI, AppKit, Rails. Flexible start.<p>[…]</p>",
+      "created_at": "2026-10-06T08:36:46Z",
+      "created_at_i": 1791275806,
+      "objectID": "49975827",
+      "parent_id": 49922569,
+      "story_id": 49922569,
+      "story_title": "Ask HN: Who is hiring? (October 2026)",
+      "updated_at": "2026-10-06T08:41:31Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "meetalbert"
+        },
+        "comment_text": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "ALBERT | REMOTE ALMOST ANYWHERE IN THE WORLD| Hiring principal and distinguished engineers to build net new products | up to ~ $750k\nHiring: exceptional consume<p>[…]</p>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: Who is hiring? (October 2026)"
+        }
+      },
+      "_tags": [
+        "comment",
+        "author_meetalbert",
+        "story_49922569"
+      ],
+      "author": "meetalbert",
+      "children": [
+        50025647,
+        49978658
+      ],
+      "comment_text": "ALBERT | REMOTE ALMOST ANYWHERE IN THE WORLD| Hiring principal and distinguished engineers to build net new products | up to ~ $750k\nHiring: exceptional consumer product engineers at Albert.<p>We&#x27;re a consumer fintech with 20M+ users who trust us to budget, save, invest, and bank in one place. Profitable for 4+ years. And as of today, our average employee tenure is 3.6 years, a number you almost never see in startup tech, and one we&#x27;re quietly proud of. People stay because the work is good, the people are sharp, and we&#x27;ve built something worth staying for.<p>Now we&#x27;re building net-new consumer products from zero, and we&#x27;re looking for people who love to tinker and build stuff to ship them with us.<p>The kind of person we&#x27;re looking for: • Top fraction of a percentile in craft, the kind of good that&#x27;s hard to fake • Builds for fun, not just for work. The kind who ships a working prototype over the weekend and can&#x27;t help themselves • Comfortable owning 0 to 1 consumer products end-to-end • Allergic to politics, theater, and bureaucracy<p>[…]</p>",
+      "created_at": "2026-10-05T13:15:08Z",
+      "created_at_i": 1791206108,
+      "objectID": "49964448",
+      "parent_id": 49922569,
+      "story_id": 49922569,
+      "story_title": "Ask HN: Who is hiring? (October 2026)",
+      "updated_at": "2026-10-09T19:39:58Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "mwapinska"
+        },
+        "comment_text": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Senior Python Backend Engineer | REMOTE (EMEA/APAC)<p>We're looking for Python backend engineers to work on a trustless supercluster of performance-proofed GPU-<p>[…]</p>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: Who is hiring? (October 2026)"
+        }
+      },
+      "_tags": [
+        "comment",
+        "author_mwapinska",
+        "story_49922569"
+      ],
+      "author": "mwapinska",
+      "comment_text": "Senior Python Backend Engineer | REMOTE (EMEA&#x2F;APAC)<p>We&#x27;re looking for Python backend engineers to work on a trustless supercluster of performance-proofed GPU-enabled sandboxed docker container runners controlled by truly decentralized algorithms (not just PAXOS or RAFT).<p>Wow, that was a mouthful...<p>If you found it interesting, join Reef Technologies and tackle complex technical challenges like this on your own terms:<p>- Contribute from wherever you like; we are fully remote<p>- Set your own time commitment, as long as it&#x27;s at least 30h per week<p>- See how we work in our handbook: github.com&#x2F;reef-technologies&#x2F;handbook<p>- Influence the way we operate through our Sociocracy 3.0 decision-making process<p>Salary on a B2B contract:<p>- 45-70 USD or 180-280 PLN per hour<p>- Flexible work schedule (as measured with a time tracker)<p>- We automatically adjust rates based on inflation twice a year<p>We&#x27;re looking for someone with 5+ years of programming experience, including at least a year with Python (including open-source and significant personal projects).<p>[…]</p>",
+      "created_at": "2026-10-05T12:51:37Z",
+      "created_at_i": 1791204697,
+      "objectID": "49964196",
+      "parent_id": 49922569,
+      "story_id": 49922569,
+      "story_title": "Ask HN: Who is hiring? (October 2026)",
+      "updated_at": "2026-10-05T12:54:28Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "seharetimad"
+        },
+        "comment_text": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Revieve Oy | Senior Product Engineer | REMOTE [Europe / (GMT+2)] | Contract, full-time |<p>[…]</p>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: Who is hiring? (October 2026)"
+        }
+      },
+      "_tags": [
+        "comment",
+        "author_seharetimad",
+        "story_49922569"
+      ],
+      "author": "seharetimad",
+      "children": [
+        50014700,
+        49977576
+      ],
+      "comment_text": "Revieve Oy | Senior Product Engineer | REMOTE [Europe &#x2F; (GMT+2)] | Contract, full-time |<p>Revieve (Helsinki, with a US office and a team in Asia) builds AI, AR and computer-vision personalization for beauty brands and retailers: skin analysis, virtual try-on and product recommendations. We work with 120+ brands and retailers in 40+ countries, and our product reaches millions of end users.<p>We&#x27;re a small team (30+ people, about a dozen engineers) spread across eight time zones, and we&#x27;ve reorganized around the idea that one builder with the right tools can do what a team used to. This role exists because we believe that.<p>A typical week: a real customer problem lands in front of you with full context, and you decide what to build. Tuesday you sketch it in an AI design tool and prototype in Claude Code. Wednesday it&#x27;s on staging and you send the founders a Loom. Thursday it&#x27;s in production. About 1-2 hours of meetings a week, mostly async. No standups, no sprints, no PM or designer in the loop.<p>What we&#x27;re looking for:<p>[…]</p>",
+      "created_at": "2026-10-05T08:17:54Z",
+      "created_at_i": 1791188274,
+      "objectID": "49962075",
+      "parent_id": 49922569,
+      "story_id": 49922569,
+      "story_title": "Ask HN: Who is hiring? (October 2026)",
+      "updated_at": "2026-10-09T01:04:40Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "apavlo"
+        },
+        "comment_text": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "ClickHouse | Remote | Full-time | <a href=\"https://clickhouse.com/\" rel=\"nofollow\">https://clickhouse.com/</a><p>[…]</p>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: Who is hiring? (October 2026)"
+        }
+      },
+      "_tags": [
+        "comment",
+        "author_apavlo",
+        "story_49922569"
+      ],
+      "author": "apavlo",
+      "comment_text": "ClickHouse | Remote | Full-time | <a href=\"https:&#x2F;&#x2F;clickhouse.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;clickhouse.com&#x2F;</a><p>ClickHouse Labs is an applied research group that works closely with engineering teams to identify challenging problems in database systems and develop novel solutions. Our goal is to advance the state of the art and translate research ideas into real-world system improvements.<p>I am looking for database &#x2F; systems &#x2F; AI researchers to help establish a world-class research team:<p>* Research Scientist (all levels): <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;clickhouse&#x2F;962f45f3-d8d3-4073-add2-af763f7c3ffb\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;clickhouse&#x2F;962f45f3-d8d3-4073-add2-...</a><p>----<p>More info: <a href=\"https:&#x2F;&#x2F;clickhouse.com&#x2F;blog&#x2F;andy-pavlo-joins-clickhouse\" rel=\"nofollow\">https:&#x2F;&#x2F;clickhouse.com&#x2F;blog&#x2F;andy-pavlo-joins-clickhouse</a><p>HN discussion: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49156011\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49156011</a>",
+      "created_at": "2026-10-02T18:30:07Z",
+      "created_at_i": 1790965807,
+      "objectID": "49936893",
+      "parent_id": 49922569,
+      "story_id": 49922569,
+      "story_title": "Ask HN: Who is hiring? (October 2026)",
+      "updated_at": "2026-10-03T05:15:20Z"
+    }
+  ],
+  "hitsPerPage": 6,
+  "nbHits": 11,
+  "nbPages": 2,
+  "page": 1,
+  "params": "tags=comment%2Cstory_49922569&numericFilters=parent_id%3D49922569&hitsPerPage=6&page=1&advancedSyntax=true&analyticsTags=backend",
+  "processingTimeMS": 3,
+  "processingTimingsMS": {
+    "_request": {
+      "queue": 72,
+      "roundTrip": 23
+    },
+    "afterFetch": {
+      "format": {
+        "highlighting": 12,
+        "total": 14
+      }
+    },
+    "fetch": {
+      "total": 1
+    },
+    "total": 3
+  },
+  "query": "",
+  "serverTimeMS": 90
+}

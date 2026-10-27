@@ -1,0 +1,35 @@
+<!doctype html>
+<!--
+  A posting with no form of its own, as jobs.lever.co/<company>/<id> is: the form is
+  one "Apply for this job" link away. Around it, the things that must not be mistaken
+  for that link or for an application: a third-party "Apply with LinkedIn" sign-in
+  and a newsletter box in the footer.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fixture Labs - Staff Engineer</title>
+  </head>
+  <body>
+    <header>
+      <form role="search" action="/search"><input type="search" name="q" placeholder="Search jobs" /></form>
+    </header>
+    <main>
+      <h2>Staff Engineer</h2>
+      <a class="postings-btn" href="/login">Apply with LinkedIn</a>
+      <div class="section page-centered">
+        <p>We are looking for an engineer who enjoys two-factor authentication flows and verification code UX.</p>
+      </div>
+      <div class="section page-centered last-section-apply">
+        <a class="postings-btn template-btn-submit" href="/lever">Apply for this job</a>
+      </div>
+    </main>
+    <footer>
+      <form method="post" action="/submit?from=newsletter">
+        <label for="newsletter_email">Email</label>
+        <input id="newsletter_email" name="email" type="email" />
+        <button type="submit">Subscribe</button>
+      </form>
+    </footer>
+  </body>
+</html>

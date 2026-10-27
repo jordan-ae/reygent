@@ -1,0 +1,59 @@
+{
+  "jobs": [
+    {
+      "id": "05172cb0-47ec-44f9-9fe8-07d4896d10ad",
+      "title": "Customer Engineer",
+      "department": "Growth",
+      "team": "Growth",
+      "employmentType": "FullTime",
+      "location": "Remote",
+      "shouldDisplayCompensationOnJobPostings": false,
+      "secondaryLocations": [],
+      "publishedAt": "2026-09-02T22:13:40.033+00:00",
+      "isListed": true,
+      "isRemote": true,
+      "workplaceType": "Remote",
+      "address": {
+        "postalAddress": {}
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/mastra/05172cb0-47ec-44f9-9fe8-07d4896d10ad",
+      "applyUrl": "https://jobs.ashbyhq.com/mastra/05172cb0-47ec-44f9-9fe8-07d4896d10ad/application",
+      "descriptionHtml": "<p style=\"min-height:1.5em\">Mastra is hiring a <strong>Customer Engineer</strong> who operates at the intersection of production reality and core platform design.</p><p style=\"min-height:1.5em\">This role blends forward deployment and core engineering. You will work directly with teams deploying agents in production and translate what you learn into improvements in the <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/mastra-ai/mastra\">Mastra […]",
+      "descriptionPlain": "Mastra is hiring a Customer Engineer who operates at the intersection of production reality and core platform design.\n\nThis role blends forward deployment and core engineering. You will work directly with teams deploying agents in production and translate what you learn into improvements in the Mastra framework https://github.com/mastra-ai/mastra itself.\n\n\n\n\nWHAT YOU’LL OWN\n\nWith Customers https://mastra.ai/customers \n\n - Collaborate directly with customer teams building real […]",
+      "compensation": {
+        "compensationTierSummary": null,
+        "scrapeableCompensationSalarySummary": null,
+        "compensationTiers": [],
+        "summaryComponents": []
+      }
+    },
+    {
+      "id": "531a3fe8-556f-4b83-bee7-20374f67f980",
+      "title": "AI Engineer ",
+      "department": "Engineering",
+      "team": "Engineering",
+      "employmentType": "FullTime",
+      "location": "Remote",
+      "shouldDisplayCompensationOnJobPostings": false,
+      "secondaryLocations": [],
+      "publishedAt": "2026-10-07T16:24:59.247+00:00",
+      "isListed": true,
+      "isRemote": true,
+      "workplaceType": "Remote",
+      "address": {
+        "postalAddress": {}
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/mastra/531a3fe8-556f-4b83-bee7-20374f67f980",
+      "applyUrl": "https://jobs.ashbyhq.com/mastra/531a3fe8-556f-4b83-bee7-20374f67f980/application",
+      "descriptionHtml": "<p style=\"min-height:1.5em\">We’re looking for an AI engineer. You’ll work on features that help developers understand their agents’ behavior, evaluate their performance, and improve them over time.</p><p style=\"min-height:1.5em\">This is a hands-on engineering role. You’ll move between experiments, benchmarks, and product code, taking what you learn from evaluating agents and using it to shape the framework.</p><p style=\"min-height:1.5em\"><strong>Why:</strong></p><ul […]",
+      "descriptionPlain": "We’re looking for an AI engineer. You’ll work on features that help developers understand their agents’ behavior, evaluate their performance, and improve them over time.\n\nThis is a hands-on engineering role. You’ll move between experiments, benchmarks, and product code, taking what you learn from evaluating agents and using it to shape the framework.\n\nWhy:\n\n - We’re starting to build more and more agentic features into Mastra: Trace intelligence, and we’re working on various […]",
+      "compensation": {
+        "compensationTierSummary": null,
+        "scrapeableCompensationSalarySummary": null,
+        "compensationTiers": [],
+        "summaryComponents": []
+      }
+    }
+  ],
+  "apiVersion": "1"
+}

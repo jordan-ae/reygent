@@ -1,0 +1,101 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6185008004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 5212069004,
+      "location": {
+        "name": "Remote"
+      },
+      "metadata": null,
+      "id": 6185008004,
+      "updated_at": "2026-10-05T13:55:57-04:00",
+      "requisition_id": "643",
+      "title": "ML & Agentic Systems Engineer [IC4]",
+      "company_name": "Sourcegraph",
+      "first_published": "2026-09-10T10:18:44-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;span style=&quot;color: rgb(243, 78, 63);&quot;&gt;Who we are&lt;/span&gt;&lt;/h2&gt;\n&lt;p&gt;Our mission is to bring clarity and control to the world&#39;s most complex codebases. AI is accelerating code creation, but the infrastructure to understand, oversee, and evolve that code hasn&#39;t kept pace. Sourcegraph gives engineering organizations full visibility across their systems, precise context for their agents, and the ability to execute coordinated code changes at scale. As agentic development becomes the dominant engineering paradigm, we provide the context layer teams need to take control of their codebase.&lt;br&gt;&lt;br&gt;With Code Search, Deep Search, MCP, and Agentic Batch Changes, we deliver on that mission today - giving engineering teams and their AI tools the cross-repo context to navigate massive codebases with&lt;p&gt;[…]&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 4003227004,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 4006284004,
+          "name": "Remote ",
+          "location": null,
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "ai_disclaimer": "<p>We use Greenhouse’s AI-powered Talent Matching tool to compare your application against our job requirements.</p>",
+      "include_ai_disclaimer": true,
+      "ai_opt_out_request_url": "http://app4.greenhouse.io/ai_opt_out_request/job_post/6185008004/ai_opt_out"
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103628004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 5179961004,
+      "location": {
+        "name": "Remote"
+      },
+      "metadata": null,
+      "id": 6103628004,
+      "updated_at": "2026-10-08T14:27:31-04:00",
+      "requisition_id": "636",
+      "title": "Software Engineer - Platform [IC3]",
+      "company_name": "Sourcegraph",
+      "first_published": "2026-07-09T12:15:18-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;span style=&quot;color: rgb(243, 78, 63);&quot;&gt;Who we are&lt;/span&gt;&lt;/h2&gt;\n&lt;p&gt;Our mission is to bring clarity and control to the world&#39;s most complex codebases. AI is accelerating code creation, but the infrastructure to understand, oversee, and evolve that code hasn&#39;t kept pace. Sourcegraph gives engineering organizations full visibility across their systems, precise context for their agents, and the ability to execute coordinated code changes at scale. As agentic development becomes the dominant engineering paradigm, we provide the context layer teams need to take control of their codebase.&lt;br&gt;&lt;br&gt;With Code Search, Deep Search, MCP, and Agentic Batch Changes, we deliver on that mission today - giving engineering teams and their AI tools the cross-repo context to navigate massive codebases with&lt;p&gt;[…]&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 4003227004,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 4006284004,
+          "name": "Remote ",
+          "location": null,
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "ai_disclaimer": "<p>We use Greenhouse’s AI-powered Talent Matching tool to compare your application against our job requirements.</p>",
+      "include_ai_disclaimer": true,
+      "ai_opt_out_request_url": "http://app4.greenhouse.io/ai_opt_out_request/job_post/6103628004/ai_opt_out"
+    }
+  ],
+  "meta": {
+    "total": 2
+  }
+}

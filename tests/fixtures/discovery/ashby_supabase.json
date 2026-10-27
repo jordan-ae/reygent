@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": "9073c0cd-2545-473a-b2ac-63e4615c69b5",
+      "title": "Platform Engineer, Managed Postgres",
+      "department": "Engineering",
+      "team": "Platform Data",
+      "employmentType": "FullTime",
+      "location": "Remote, Global",
+      "shouldDisplayCompensationOnJobPostings": false,
+      "secondaryLocations": [],
+      "publishedAt": "2026-10-09T17:17:39.437+00:00",
+      "isListed": true,
+      "isRemote": null,
+      "workplaceType": null,
+      "address": null,
+      "jobUrl": "https://jobs.ashbyhq.com/supabase/9073c0cd-2545-473a-b2ac-63e4615c69b5",
+      "applyUrl": "https://jobs.ashbyhq.com/supabase/9073c0cd-2545-473a-b2ac-63e4615c69b5/application",
+      "descriptionHtml": "<h2><strong>About Supabase</strong></h2><p style=\"min-height:1.5em\">Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth.</p><p style=\"min-height:1.5em\"></p><h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">We are seeking a Platform Software Engineer […]",
+      "descriptionPlain": "ABOUT SUPABASE\n\nSupabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth.\n\n\n\n\nABOUT THE ROLE\n\nWe are seeking a Platform Software Engineer with deep experience in distributed systems to help design, build, and maintain core platform services. You will work primarily in […]",
+      "compensation": {
+        "compensationTierSummary": null,
+        "scrapeableCompensationSalarySummary": null,
+        "compensationTiers": [],
+        "summaryComponents": []
+      }
+    },
+    {
+      "id": "bd5ce178-84c9-469e-89f4-493c21b50622",
+      "title": "Product Manager - Realtime",
+      "department": "Product",
+      "team": "Product",
+      "employmentType": "FullTime",
+      "location": "Remote, Global",
+      "shouldDisplayCompensationOnJobPostings": false,
+      "secondaryLocations": [],
+      "publishedAt": "2026-10-07T23:28:05.961+00:00",
+      "isListed": true,
+      "isRemote": true,
+      "workplaceType": "Remote",
+      "address": null,
+      "jobUrl": "https://jobs.ashbyhq.com/supabase/bd5ce178-84c9-469e-89f4-493c21b50622",
+      "applyUrl": "https://jobs.ashbyhq.com/supabase/bd5ce178-84c9-469e-89f4-493c21b50622/application",
+      "descriptionHtml": "<h2><strong>About Supabase</strong></h2><p style=\"min-height:1.5em\">Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth.<br /><br /><strong>About the Role</strong></p><p style=\"min-height:1.5em\">We're hiring a Product Manager for <a target=\"_blank\" rel=\"noopener […]",
+      "descriptionPlain": "ABOUT SUPABASE\n\nSupabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth.\n\nAbout the Role\n\nWe're hiring a Product Manager for Supabase Realtime https://supabase.com/docs/guides/realtime. You'll own the surface area developers use to build live, collaborative and event-driven […]",
+      "compensation": {
+        "compensationTierSummary": null,
+        "scrapeableCompensationSalarySummary": null,
+        "compensationTiers": [],
+        "summaryComponents": []
+      }
+    }
+  ],
+  "apiVersion": "1"
+}

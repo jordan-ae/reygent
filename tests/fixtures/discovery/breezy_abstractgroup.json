@@ -1,0 +1,206 @@
+[
+  {
+    "id": "ba2aa4ce4eb701",
+    "friendly_id": "ba2aa4ce4eb701-full-stack-web-developer-remote-contractor",
+    "name": "Full Stack Web Developer ⏤ Remote Contractor",
+    "url": "https://abstractgroup.breezy.hr/p/ba2aa4ce4eb701-full-stack-web-developer-remote-contractor",
+    "published_date": "2026-07-06T13:25:10.176Z",
+    "type": {
+      "id": "contract",
+      "name": "Contract"
+    },
+    "location": {
+      "country": {
+        "name": "Germany",
+        "id": "DE"
+      },
+      "city": "Stuttgart",
+      "name": "Stuttgart, DE",
+      "is_remote": true,
+      "primary": true,
+      "remote_details": {
+        "value": "remote",
+        "label": "Fully remote, no location restrictions"
+      },
+      "id": "5d3c9d8cd4f1"
+    },
+    "department": "Engineering",
+    "salary": "",
+    "company": {
+      "name": "Abstract",
+      "logo_url": null,
+      "friendly_id": "abstractgroup",
+      "isMultipleLocationsEnabled": false
+    },
+    "locations": [
+      {
+        "country": {
+          "name": "Germany",
+          "id": "DE"
+        },
+        "city": "Stuttgart",
+        "name": "Stuttgart, DE",
+        "is_remote": true,
+        "primary": true,
+        "remote_details": {
+          "value": "remote",
+          "label": "Fully remote, no location restrictions"
+        },
+        "id": "5d3c9d8cd4f1"
+      }
+    ],
+    "description": "<h2><strong>Who We Are</strong></h2>\n<p>Abstract is where excellence meshes with 3D technology and innovation. We engineer&nbsp;groundbreaking solutions that empower you to elevate&nbsp;your&nbsp;digital experiences to new heights without compromising&nbsp;the vision.&nbsp;From award-winning <a href=\"https://www.youtube.com/@InstaLOD\">optimization technology</a>, scalable <a href=\"https://www.youtube.com/@InstaMAT_io\">material creation and authoring tools</a>, to seamless […]"
+  },
+  {
+    "id": "58017b98418901",
+    "friendly_id": "58017b98418901-business-development",
+    "name": "Business Development",
+    "url": "https://abstractgroup.breezy.hr/p/58017b98418901-business-development",
+    "published_date": "2026-09-11T17:09:25.896Z",
+    "type": {
+      "id": "fullTime",
+      "name": "Full-Time"
+    },
+    "location": {
+      "country": {
+        "name": "Germany",
+        "id": "DE"
+      },
+      "city": "Stuttgart",
+      "name": "Stuttgart, DE",
+      "is_remote": false,
+      "primary": true,
+      "id": "c81996713afd"
+    },
+    "department": "Management",
+    "salary": "",
+    "company": {
+      "name": "Abstract",
+      "logo_url": null,
+      "friendly_id": "abstractgroup",
+      "isMultipleLocationsEnabled": false
+    },
+    "locations": [
+      {
+        "country": {
+          "name": "Germany",
+          "id": "DE"
+        },
+        "city": "Stuttgart",
+        "name": "Stuttgart, DE",
+        "is_remote": false,
+        "primary": true,
+        "id": "c81996713afd"
+      }
+    ],
+    "description": "<h2><strong>Who We Are</strong></h2>\n<p>Abstract is where excellence meshes with 3D technology and innovation. We engineer&nbsp;groundbreaking solutions that empower you to elevate&nbsp;your&nbsp;digital experiences to new heights without compromising&nbsp;the vision.&nbsp;From award-winning&nbsp;optimization technology, scalable&nbsp;material creation and authoring tools, to seamless scan processing and advanced rendering technologies —&nbsp;we’re at the forefront of […]"
+  },
+  {
+    "id": "05b9ca5ab4e601",
+    "friendly_id": "05b9ca5ab4e601-product-evangelist-remote-contractor",
+    "name": "Product Evangelist ⏤ Remote Contractor",
+    "url": "https://abstractgroup.breezy.hr/p/05b9ca5ab4e601-product-evangelist-remote-contractor",
+    "published_date": "2026-05-18T15:41:24.832Z",
+    "type": {
+      "id": "contract",
+      "name": "Contract"
+    },
+    "location": {
+      "country": {
+        "name": "Germany",
+        "id": "DE"
+      },
+      "city": "Stuttgart",
+      "name": "Stuttgart, DE",
+      "is_remote": true,
+      "primary": true,
+      "remote_details": {
+        "value": "remote",
+        "label": "Fully remote, no location restrictions"
+      },
+      "id": "d2869bceb622",
+      "streetAddress": {
+        "location": "Breitscheidstraße, Stuttgart, Germany",
+        "components": [
+          {
+            "long_name": "Breitscheidstraße",
+            "short_name": "Breitscheidstraße",
+            "types": [
+              "route"
+            ]
+          },
+          {
+            "long_name": "Stuttgart",
+            "short_name": "Stuttgart",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Stuttgart",
+            "short_name": "Stuttgart",
+            "types": [
+              "administrative_area_level_3",
+              "political"
+            ]
+          }
+        ]
+      }
+    },
+    "department": "Marketing",
+    "salary": "",
+    "company": {
+      "name": "Abstract",
+      "logo_url": null,
+      "friendly_id": "abstractgroup",
+      "isMultipleLocationsEnabled": false
+    },
+    "locations": [
+      {
+        "country": {
+          "name": "Germany",
+          "id": "DE"
+        },
+        "city": "Stuttgart",
+        "name": "Stuttgart, DE",
+        "is_remote": true,
+        "primary": true,
+        "remote_details": {
+          "value": "remote",
+          "label": "Fully remote, no location restrictions"
+        },
+        "id": "d2869bceb622",
+        "streetAddress": {
+          "location": "Breitscheidstraße, Stuttgart, Germany",
+          "components": [
+            {
+              "long_name": "Breitscheidstraße",
+              "short_name": "Breitscheidstraße",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Stuttgart",
+              "short_name": "Stuttgart",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Stuttgart",
+              "short_name": "Stuttgart",
+              "types": [
+                "administrative_area_level_3",
+                "political"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "description": "<h2><strong>Who We Are</strong></h2>\n<p>Abstract is where excellence meshes with 3D technology and innovation. We engineer&nbsp;groundbreaking solutions that empower you to elevate&nbsp;your&nbsp;digital experiences to new heights without compromising&nbsp;the vision.&nbsp;From award-winning&nbsp;<a href=\"https://www.youtube.com/@InstaLOD\">optimization technology</a>, scalable&nbsp;<a href=\"https://www.youtube.com/@InstaMAT_io\">material creation and authoring tools</a>, to […]"
+  }
+]

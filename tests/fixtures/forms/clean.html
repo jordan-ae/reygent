@@ -1,0 +1,26 @@
+<!doctype html>
+<!--
+  A plain careers-page form with nothing in the way: wrapping labels, native required
+  attributes, an input[type=submit]. Posts to the fixture server's confirmation page.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Apply - Backend Engineer</title>
+  </head>
+  <body>
+    <main>
+      <h1>Backend Engineer</h1>
+      <form method="post" action="/submit?from=clean" enctype="multipart/form-data">
+        <p><label>Full name * <input name="name" type="text" required /></label></p>
+        <p><label>Email address * <input name="email" type="email" required /></label></p>
+        <p><label>Where are you based? <input name="location" type="text" /></label></p>
+        <p><label>GitHub <input name="github" type="url" /></label></p>
+        <p><label>Resume (PDF) * <input name="resume" type="file" accept="application/pdf" required /></label></p>
+        <p><label for="cover">Cover letter</label><textarea id="cover" name="cover_letter" rows="6"></textarea></p>
+        <p><label>Anything else you would like us to know? <textarea name="notes" rows="3"></textarea></label></p>
+        <p><input type="submit" value="Send application" /></p>
+      </form>
+    </main>
+  </body>
+</html>

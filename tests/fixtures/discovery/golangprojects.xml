@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+<atom:link href="https://www.golangprojects.com/rss.xml" rel="self" type="application/rss+xml" />
+  <title>Golangprojects.com</title>
+  <link>https://www.golangprojects.com</link>
+  <description>#golang #jobs only. The goal being to bring companies and developers together that like #go</description>
+<image>
+  <url>https://www.golangprojects.com/img/golangprojects_gopher.png</url>
+  <title>Golangprojects.com</title>
+  <link>https://www.golangprojects.com</link>
+</image>  <item>
+<guid>https://www.golangprojects.com/golang-go-job-gkb-Remote-Sr-Software-Engineer-Prenosis-remotework.html</guid>
+<title>Sr. Software Engineer @ Prenosis</title>
+    <link>https://www.golangprojects.com/golang-go-job-gkb-Remote-Sr-Software-Engineer-Prenosis-remotework.html</link>
+    <description>Remote - Prenosis Inc. is an artificial intelligence company pioneering precision medicine in acute care. Our Immunix™ precision medicine platform drives the development of precision products and enables real-time delivery of optimal therapy. We&#039;ve created and validated the fi...</description>
+    
+</item>
+    <item>
+<guid>https://www.golangprojects.com/golang-go-job-gle-Data-Platform-Engineer-Copenhagen-Lunar.html</guid>
+<title>Data Platform Engineer @ Lunar</title>
+    <link>https://www.golangprojects.com/golang-go-job-gle-Data-Platform-Engineer-Copenhagen-Lunar.html</link>
+    <description>Copenhagen, Denmark - Banking hasn&#039;t changed much in decades. We&#039;re changing that. One product at a time.
+
+Lunar is a Nordic challenger bank building the future of financial life with AI at the core. Our engineers, designers, and product people work on problems that actually matter. Making ...</description>
+    
+</item>
+    <item>
+<guid>https://www.golangprojects.com/golang-go-job-gxf-Remote-Europe-Senior-Software-Engineer-Go-AI-Resilience-Security-Enhancements-Contract-Form3-remotework.html</guid>
+<title>Senior Software Engineer (Go) - AI Resilience &amp; Security Enhancements (Contract) @ Form3</title>
+    <link>https://www.golangprojects.com/golang-go-job-gxf-Remote-Europe-Senior-Software-Engineer-Go-AI-Resilience-Security-Enhancements-Contract-Form3-remotework.html</link>
+    <description>Remote - Solve complex security and platform engineering challenges that protect critical payment infrastructure at scale.
+
+THE PROJECT 📝 
+
+As a Senior Software Engineer, you will be engaged to deliver key initiatives that strengthen the security and resilience of Form3&#039;s c...</description>
+    
+</item>
+</channel></rss>      

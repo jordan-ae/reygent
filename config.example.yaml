@@ -1,0 +1,222 @@
+# Reygent configuration.
+# Copy to config.yaml and replace every CHANGE_ME — or fill it in from the console: npm run web
+# API keys are read from the environment (TYPESAFE_API_KEY, FIREWORKS_API_KEY) — never put them here.
+
+candidate:
+  name: "CHANGE_ME"
+  email: "CHANGE_ME"
+  phone: "CHANGE_ME"
+  github_url: "CHANGE_ME"        # e.g. https://github.com/your-handle
+  linkedin_url: "CHANGE_ME"      # e.g. https://www.linkedin.com/in/your-handle
+  portfolio_url: "CHANGE_ME"
+  location: "Cameroon (UTC+1)"   # add your city, e.g. "Douala, Cameroon (UTC+1)": some forms search for it
+  timezone: "Africa/Douala (WAT, UTC+1)"
+  work_authorization: "Eligible for Global Independent B2B Contractor & 1099 Engagements. Invoices via direct wire / Deel / Remote / Wise."
+  # The only availability the agent may ever state, e.g. "2 weeks" or "Immediately".
+  notice_period: "CHANGE_ME"
+  years_experience: null         # e.g. 7
+  # Employers and clients you are allowed to name in a pitch.
+  employers: []
+  # Skills you can truthfully claim beyond the technologies of your verified achievements.
+  # Only these and those are ever named as yours.
+  skills: []
+  # Your own summary. A tuned CV rewrites it for each listing from this and your verified
+  # work; it is printed as written whenever a rewrite cannot be verified.
+  summary: ""
+  # Your own CV as a PDF, e.g. "~/Documents/my-cv.pdf". When set, applications attach it
+  # (copied under your name) instead of a one-page resume generated from the fact bank.
+  resume_path: ""
+  # Your work history as your CV has it, most recent first. With it, each application
+  # attaches your whole CV rebuilt around its listing (pipeline.tune_cv) and the file above
+  # is no longer used: a summary that opens with what the listing is hiring for, the
+  # listing's own words for the skills you have and the work you describe, your most
+  # relevant work first, in a layout applicant tracking systems read cleanly. Under each
+  # role go the verified achievements that name its employer, then `highlights`: lines of
+  # your CV in your own words, printed as written and never reworded.
+  experience: []
+  #  - employer: "Acme"            # spelled as in the fact bank
+  #    title: "Senior Software Engineer"
+  #    location: "Berlin, Germany"
+  #    start: "Jan 2023"
+  #    end: "Present"
+  #    highlights:
+  #      - "A line of your CV the fact bank does not hold."
+  # Projects of your own: fact-bank entries by id, and lines in your own words.
+  projects: []
+  #  - name: "My project"
+  #    achievements: [ach_my_project]
+  #    highlights: []
+  # One line per qualification. Left empty, the CV prints no Education section.
+  education: []
+  # Facts the AI may use to answer screening questions, in your own words. Spell out the
+  # legal ones so it reads them instead of inferring them, e.g.:
+  #   "Cameroonian citizen. Not a US citizen or permanent resident. Not authorized for
+  #    employment in the US, UK or EU; I work remotely from Cameroon as an independent
+  #    contractor, so I do not need visa sponsorship."
+  # The more you state, the more forms go through without stopping. Forms most often ask:
+  # your city, country and passport country; whether you are over 18; where you may work
+  # and whether you need sponsorship; how you heard about the role; how long you have
+  # worked remotely and in startups; your English level; whether you can travel to meet a
+  # team a few times a year. Nothing about what you earn now: Reygent never answers that.
+  screening_notes: ""
+
+# The verified achievement bank. Every metric, technology and employer the agent writes
+# must trace back to an entry here, and an entry is only usable once `verified: true`.
+# The entries below are format examples, not facts — replace them with your own.
+fact_bank:
+  achievements:
+    - id: ach_example_agents
+      category: ai_systems
+      # Which positioning profiles this supports:
+      # ai_platform_agent | fullstack_product | applied_ai_llm | frontend_systems
+      positioning: [ai_platform_agent]
+      headline: "EXAMPLE: what you built, in one line"
+      impact_metric: "EXAMPLE: the measured result, with the exact numbers you can defend"
+      technologies: [Python, LangGraph]
+      employer: ""               # where it happened, if you may name it
+      evidence_url: ""           # public repo or write-up, if any
+      context: ""
+      verified: false            # set to true only once every detail above is accurate
+    - id: ach_example_fullstack
+      category: full_stack
+      positioning: [fullstack_product, frontend_systems]
+      headline: "EXAMPLE: what you shipped, in one line"
+      impact_metric: "EXAMPLE: the measured result"
+      technologies: [TypeScript, Next.js, PostgreSQL]
+      employer: ""
+      evidence_url: ""
+      context: ""
+      verified: false
+
+compensation:
+  hourly_floor_usd: 40
+  monthly_floor_usd: 2500
+  monthly_income_goal_usd: 10000
+  max_concurrent_engagements: 3
+  quoted_hourly_rate_usd: 50     # what Reygent quotes when asked; never below the hourly floor
+
+budget:
+  daily_cap_usd: 1.50            # hard stop-loss: paid calls are refused beyond this
+  day_utc_offset_hours: 1        # the budget day rolls over at midnight WAT
+
+jev:                             # Tier 1 — typed decisions (TypeSafe AI Jev System-One)
+  base_url: "https://api.typesafe.ai/v1/systemone"
+  api_key_env: "TYPESAFE_API_KEY"
+  model: "jev-latest"
+  input_usd_per_million: 0.042   # output tokens are free
+  output_usd_per_million: 0.0
+
+fireworks:                       # Tier 2 — text generation
+  base_url: "https://api.fireworks.ai/inference/v1/chat/completions"
+  api_key_env: "FIREWORKS_API_KEY"
+  model: "accounts/fireworks/models/deepseek-v4p1-flash"
+  max_tokens: 450
+  # Fireworks' models reason before they answer, and that is billed out of max_tokens: left
+  # on, the budget is spent thinking and no text comes back. "none" turns it off (DeepSeek
+  # V4.1 Flash); GLM 5.3 and GPT OSS cannot turn it off and need "low".
+  reasoning_effort: "none"
+  # USD per 1M tokens, from https://docs.fireworks.ai/serverless/pricing (read 2026-10-12).
+  # Check it before changing models: a model with no entry here is refused, because its
+  # cost could not be metered.
+  pricing_usd_per_million:
+    accounts/fireworks/models/deepseek-v4p1-flash: {input: 0.30, output: 1.20}
+    accounts/fireworks/models/glm-5p3-flash: {input: 0.15, output: 0.50}      # needs reasoning_effort: "low"
+    accounts/fireworks/models/gpt-oss-120b: {input: 0.15, output: 0.60}       # needs reasoning_effort: "low"
+
+cop:
+  max_autofix_retries: 2
+  dedup_window_days: 30
+  max_pitch_words: 200
+  max_pdf_pages: 2
+
+# Where listings come from. All of these are public feeds; no account is needed.
+discovery:
+  # Company job boards. These were checked live on 2026-10-12: remote-first employers whose
+  # listings name remote, worldwide or EMEA locations. Add or remove freely.
+  greenhouse_boards: [canonical, gitlab, grafanalabs, automatticcareers, sourcegraph91, mozilla, planetscale, consensys, fivetran, wikimedia, jetbrains, nearform, mattermost, tailscale]   # boards.greenhouse.io/<token>
+  ashby_orgs: [supabase, n8n, linear, elevenlabs, cohere, railway, livekit, clickhouse, oyster, resend, sanity, mastra, triggerdev, docker]   # jobs.ashbyhq.com/<org>
+  lever_companies: [metabase, gohighlevel, superside, anchorage, toptal, jumpcloud, swissborg, 1inch]   # jobs.lever.co/<company>
+  workable_accounts: [zyte, modash, huggingface]   # apply.workable.com/<account>
+  recruitee_companies: [tether]                    # <company>.recruitee.com
+  teamtailor_companies: [axmed]                    # <company>.teamtailor.com
+  breezy_companies: [abstractgroup]                # <company>.breezy.hr
+  # Remote-job boards with a public API or RSS feed. Each is read no more often than its own terms ask.
+  job_boards: [remotive, remoteok, jobicy, himalayas, workingnomads, weworkremotely, realworkfromanywhere, golangprojects, python_org]
+  hn_who_is_hiring: true         # the monthly Hacker News "Who is hiring?" thread
+  hn_freelancer: true            # the monthly Hacker News "Freelancer? Seeking freelancer?" thread (contract gigs)
+  # When a listing links to its employer's own board, read that board too from then on; and look a
+  # job site's listing up on its employer's board by name, to apply through the form instead of a pitch.
+  follow_board_links: true
+  found_boards_per_cycle: 20     # how many of those found boards are read per cycle; they take turns
+  # Only listings whose title contains one of these are tracked.
+  title_keywords: [engineer, developer, full-stack, full stack, fullstack, frontend, front-end, backend, ai, llm, machine learning, agent]
+  # A listing whose title contains one of these is skipped, whatever else the title says.
+  title_exclude_keywords: [junior, intern, internship, graduate, trainee, apprentice, entry level, entry-level, working student]
+  # High enough to take in every matching listing at once: a company is applied to only
+  # when all its openings are known, so that its single best match can be picked.
+  max_new_jobs_per_cycle: 3000
+
+pipeline:
+  # Hands-free by default: drafts that pass the Cop Tool are submitted without asking you.
+  require_human_review: false    # true = every draft waits for your approval first
+  auto_submit: true              # false = the form is filled in a visible window and you press Submit
+  # Most forms carry an invisible CAPTCHA that only runs when Submit is pressed. Reygent never
+  # solves or hides from one. false = press Submit and let the site's check decide (a challenge,
+  # if one appears, is handed to you); true = stop at every such form and leave Submit to you.
+  stop_at_invisible_captcha: false
+  pitch_unconfirmed_tier2: true  # apply to "Remote" jobs the investigation could not settle, stating the contractor setup
+  apply_single_country: false    # true = also apply to unsettled ones that name one country ("Remote, Spain"); another open role at the company goes first
+  answer_confidence: 0.85        # how sure the AI must be before it answers a new screening question
+  tune_cv: true                  # rebuild your CV around each listing (needs candidate.experience); false = attach it as it is
+  fit_threshold: 60              # minimum fit score (0-100) for a qualified job to be drafted; lowering it brings back jobs passed over for fit
+  max_drafts_per_cycle: 10
+  max_submissions_per_day: 10
+  loop_interval_minutes: 60      # how often `npm run reygent -- run` starts a cycle
+  investigation_confidence: 0.8  # Jev confidence needed to act on a Tier 2 verdict; below it, you decide
+
+# When a site emails a code after Submit (Greenhouse does, to confirm a person is applying), the
+# application waits on the dashboard. Press "I'm ready" there: Reygent submits it again, shows the
+# code the site emails you, and enters it only when you press Approve.
+apply:
+  code_handoff: false              # true: hold those applications for you; false: set them aside
+  code_wait_minutes: 10             # how long the Approve card waits for you
+  code_look_minutes: 2              # how long Reygent searches your inbox for the code before asking you to paste it
+
+# The browser agent. When the fixed patterns cannot get to a form, fill it or find its Submit
+# button (an Apply button worded another way, a pop-up over the posting, a cookie banner, a
+# form in steps, a "Send" button), the writing model reads the page and decides what to press.
+# It types only your own details, the draft's cover note and its screening answers.
+# Each decision is one small call; a whole application usually costs $0.01–0.04.
+agent:
+  enabled: true
+  model: ""                        # empty = fireworks.model; it needs a price in fireworks.pricing_usd_per_million
+  max_steps: 30                    # the most decisions for one application
+  max_usd_per_application: 0.10    # it stops there; the daily cap still applies
+  answer_new_questions: true       # questions met on a later step are answered from your data, by the drafting rules
+  resume_autofill: false           # also feed the "Autofill from resume" box some boards put above the form
+  cookies: "reject"                # reject | accept | close
+  follow_other_sites: true         # follow an Apply link to another site (a job site's listing to the employer's form)
+  # Forms that ask applicants not to use AI. false: left for you to apply by hand.
+  # true: applied through like any other form, agreeing to what they ask.
+  apply_where_ai_is_forbidden: false
+  # Buttons and links it never presses, as patterns matched against their caption. Remove a line
+  # to allow it (e.g. "Apply with LinkedIn" when your Chrome profile is signed in to LinkedIn).
+  never_click:
+    - "\\b(?:with|via|using)\\s+(?:linked\\s?in|google|indeed|github|facebook|apple|microsoft|seek|xing)\\b"
+    - "\\b(?:sign|log)\\s?(?:in|up|on)\\b"
+    - "\\b(?:create|register)\\s+(?:an\\s+)?account\\b"
+
+# Email from your own mailbox. Nothing is sent until its app password is stored in the console
+# (Settings, "Email app password"); for Gmail, create one at myaccount.google.com/apppasswords.
+email:
+  send_applications: true        # hands-free: send applications by email where the employer takes them that way
+  find_contacts: true            # look for the company's published hiring address (jobs@, careers@ ...) on its own site
+  notify: true                   # after a run, email you a table of what needs you, when something new does
+  notify_to: ""                  # empty = candidate.email
+  smtp_user: ""                  # the mailbox mail is sent from; empty = candidate.email
+  smtp_host: "smtp.gmail.com"
+  smtp_port: 465
+  max_per_day: 20                # applications by email per day; they count toward max_submissions_per_day too
+
+db_path: "~/.reygent/reygent.db"
+browser_profile_dir: "~/.reygent/browser_profile/default"

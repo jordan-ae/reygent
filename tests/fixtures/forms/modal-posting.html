@@ -1,0 +1,63 @@
+<!doctype html>
+<!--
+  A careers page the fixed patterns cannot get through: a talent-community pop-up over
+  the whole posting, a cookie banner, an Apply control that is a styled div saying "Start
+  your journey with us", and a form that opens in a dialog and is sent with "Send it
+  over". The pop-up blocks every click on the page until it is closed.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Senior Engineer - Fixture Labs</title>
+    <style>
+      .overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; z-index: 10; }
+      .box { background: #fff; padding: 20px; width: 520px; }
+      #cookies { position: fixed; bottom: 0; left: 0; right: 0; background: #eee; padding: 10px; z-index: 20; }
+      #start { cursor: pointer; display: inline-block; padding: 8px 14px; background: #36f; color: #fff; }
+      [hidden] { display: none !important; }
+      label, input { display: block; margin: 4px 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Senior Engineer</h1>
+      <p>We build developer tools. Fully remote.</p>
+      <div id="start">Start your journey with us</div>
+    </main>
+
+    <div id="newsletter" class="overlay" role="dialog" aria-modal="true" aria-label="Join our talent community">
+      <div class="box">
+        <h2>Join our talent community</h2>
+        <p>Get job alerts in your inbox.</p>
+        <button id="close-news" class="modal-close" aria-label="Close"></button>
+      </div>
+    </div>
+
+    <div id="cookies">
+      <p>We use cookies to improve your experience.</p>
+      <button id="accept">Accept all</button>
+      <button id="reject">Reject all</button>
+    </div>
+
+    <div id="apply" class="overlay" role="dialog" aria-modal="true" aria-label="Apply for Senior Engineer" hidden>
+      <div class="box">
+        <h2>Apply for Senior Engineer</h2>
+        <form method="post" action="/submit?from=modal-posting" enctype="multipart/form-data">
+          <label for="fn">First name *</label><input id="fn" name="first_name" required />
+          <label for="ln">Last name *</label><input id="ln" name="last_name" required />
+          <label for="em">Email *</label><input id="em" name="email" type="email" required />
+          <label for="where">Where are you based right now? *</label><input id="where" name="where" required />
+          <label for="cv">Resume/CV *</label><input id="cv" name="resume" type="file" required />
+          <button type="submit">Send it over</button>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("accept").onclick = () => { document.getElementById("cookies").remove(); document.title += " [cookies accepted]"; };
+      document.getElementById("reject").onclick = () => { document.getElementById("cookies").remove(); document.title += " [cookies rejected]"; };
+      document.getElementById("close-news").onclick = () => document.getElementById("newsletter").remove();
+      document.getElementById("start").onclick = () => { document.getElementById("apply").hidden = false; };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+{
+  "jobs": [
+    {
+      "id": "dbd5ae8a-7c01-4f17-be39-b8caa8fd95d5",
+      "title": "Recruiting Coordinator - Contract",
+      "department": "People",
+      "team": "Recruiting",
+      "employmentType": "Contract",
+      "location": "San Francisco",
+      "shouldDisplayCompensationOnJobPostings": true,
+      "secondaryLocations": [
+        {
+          "location": "New York City",
+          "address": {
+            "postalAddress": {
+              "addressRegion": "New York",
+              "addressCountry": "United States",
+              "addressLocality": "New York"
+            }
+          }
+        },
+        {
+          "location": "Seattle",
+          "address": {
+            "postalAddress": {
+              "addressRegion": "Washington",
+              "addressCountry": "United States",
+              "addressLocality": "Seattle"
+            }
+          }
+        }
+      ],
+      "publishedAt": "2026-08-28T18:45:07.651+00:00",
+      "isListed": true,
+      "isRemote": true,
+      "workplaceType": "Hybrid",
+      "address": {
+        "postalAddress": {
+          "addressRegion": "California",
+          "addressCountry": "United States",
+          "addressLocality": "San Francisco"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/openai/dbd5ae8a-7c01-4f17-be39-b8caa8fd95d5",
+      "applyUrl": "https://jobs.ashbyhq.com/openai/dbd5ae8a-7c01-4f17-be39-b8caa8fd95d5/application",
+      "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">We’re seeking a Contract Recruiting Coordinator to join our team, focusing on supporting the logistics and coordination of the recruiting efforts for OpenAI.</p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Act as point of contact for candidates; coordinating, scheduling, and managing interviews as well as travel and accommodation arrangements when needed. Making sure everyone is in the right place at the right time.</p></li><li><p style=\"min-height:1.5em\">Use Ashby (our ATS) and relevant recruiting tools to stay organized and help keep our busy team on track.</p></li><p>[…]</p>",
+      "descriptionPlain": "About the Role\n\nWe’re seeking a Contract Recruiting Coordinator to join our team, focusing on supporting the logistics and coordination of the recruiting efforts for OpenAI.\n\nIn this role, you will:\n\n - Act as point of contact for candidates; coordinating, scheduling, and managing interviews as well as travel and accommodation arrangements when needed. Making sure everyone is in the right place at the right time.\n\n […]",
+      "compensation": {
+        "compensationTierSummary": "$57 – $70 per hour",
+        "scrapeableCompensationSalarySummary": null,
+        "compensationTiers": [
+          {
+            "id": "11c05c80-93a1-4be7-a4f6-2ee17ff37e5a",
+            "tierSummary": "$57 – $70 per hour",
+            "title": null,
+            "additionalInformation": null,
+            "components": [
+              {
+                "id": "7dff1e0a-8c36-4100-ba00-90bdb3e583fe",
+                "summary": "$57 – $70 per hour",
+                "compensationType": "Salary",
+                "interval": "1 HOUR",
+                "currencyCode": "USD",
+                "minValue": 57,
+                "maxValue": 70
+              }
+            ]
+          }
+        ],
+        "summaryComponents": [
+          {
+            "compensationType": "Salary",
+            "interval": "1 HOUR",
+            "currencyCode": "USD",
+            "minValue": 57,
+            "maxValue": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "f763c6b3-5167-4a67-b691-4c3fa2c44156",
+      "title": "Software Engineer, Data Infrastructure",
+      "department": "Scaling",
+      "team": "Scaling",
+      "employmentType": "FullTime",
+      "location": "San Francisco",
+      "shouldDisplayCompensationOnJobPostings": true,
+      "secondaryLocations": [
+        {
+          "location": "New York City",
+          "address": {
+            "postalAddress": {
+              "addressRegion": "New York",
+              "addressCountry": "United States",
+              "addressLocality": "New York"
+            }
+          }
+        },
+        {
+          "location": "Seattle",
+          "address": {
+            "postalAddress": {
+              "addressRegion": "Washington",
+              "addressCountry": "United States",
+              "addressLocality": "Seattle"
+            }
+          }
+        },
+        {
+          "location": "Mountain View",
+          "address": {
+            "postalAddress": {
+              "addressRegion": "California",
+              "addressCountry": "United States",
+              "addressLocality": "Mountain View"
+            }
+          }
+        }
+      ],
+      "publishedAt": "2024-06-27T22:14:24.195+00:00",
+      "isListed": true,
+      "isRemote": null,
+      "workplaceType": null,
+      "address": {
+        "postalAddress": {
+          "addressRegion": "California",
+          "addressCountry": "United States",
+          "addressLocality": "San Francisco"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/openai/f763c6b3-5167-4a67-b691-4c3fa2c44156",
+      "applyUrl": "https://jobs.ashbyhq.com/openai/f763c6b3-5167-4a67-b691-4c3fa2c44156/application",
+      "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">Data Platform at OpenAI owns the foundational data stack powering critical product, research, and analytics workflows. We operate some of the largest Spark compute fleets in production; design, and build data lakes and metadata systems on Iceberg and Delta with a vision toward exabyte-scale architecture; run high throughput streaming platforms on Kafka and Flink; provide orchestration with Airflow; and support ML feature engineering tooling such as Chronon. Our mission is to deliver reliable, secure, and efficient data access at scale and accelerate intelligent, AI assisted data workflows.</p><p style=\"min-height:1.5em\">Join us to build and operate these core platforms that underpin OpenAI products, research, and analytics.</p><p>[…]</p>",
+      "descriptionPlain": "About the Team\n\nData Platform at OpenAI owns the foundational data stack powering critical product, research, and analytics workflows. We operate some of the largest Spark compute fleets in production; design, and build data lakes and metadata systems on Iceberg and Delta with a vision toward exabyte-scale architecture; run high throughput streaming platforms on Kafka and Flink; provide orchestration with Airflow; and support ML feature engineering tooling such as Chronon.  […]",
+      "compensation": {
+        "compensationTierSummary": "$266K – $445K • Offers Equity",
+        "scrapeableCompensationSalarySummary": "$266K - $445K",
+        "compensationTiers": [
+          {
+            "id": "7c1ee842-1513-47b6-b913-1bfad8c95fe9",
+            "tierSummary": "$266K – $445K • Offers Equity",
+            "title": null,
+            "additionalInformation": null,
+            "components": [
+              {
+                "id": "6b73abba-5284-40c5-aae4-88e3f7212811",
+                "summary": "Offers Equity",
+                "compensationType": "EquityCashValue",
+                "interval": "1 YEAR",
+                "currencyCode": "USD",
+                "minValue": null,
+                "maxValue": null
+              },
+              {
+                "id": "ca00b419-4b01-43ca-b5ac-3841ef75e085",
+                "summary": "$266K – $445K",
+                "compensationType": "Salary",
+                "interval": "1 YEAR",
+                "currencyCode": "USD",
+                "minValue": 266000,
+                "maxValue": 445000
+              }
+            ]
+          }
+        ],
+        "summaryComponents": [
+          {
+            "compensationType": "EquityCashValue",
+            "interval": "1 YEAR",
+            "currencyCode": "USD",
+            "minValue": null,
+            "maxValue": null
+          },
+          {
+            "compensationType": "Salary",
+            "interval": "1 YEAR",
+            "currencyCode": "USD",
+            "minValue": 266000,
+            "maxValue": 445000
+          }
+        ]
+      }
+    }
+  ],
+  "apiVersion": "1"
+}

@@ -1,0 +1,307 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://www.mongodb.com/careers/job/?gh_jid=8105037",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3511286,
+      "location": {
+        "name": "Dublin, Ireland"
+      },
+      "metadata": [
+        {
+          "id": 22194060,
+          "name": "Position ID",
+          "value": "N/A",
+          "value_type": "short_text"
+        },
+        {
+          "id": 24918,
+          "name": "Department ID",
+          "value": "D87210-Early Talent Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 22194061,
+          "name": "Team",
+          "value": "T10486-Talent Discovery",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4914027,
+          "name": "Region",
+          "value": "EMEA",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4137836,
+          "name": "Working Model Eligibility",
+          "value": [
+            "2-Flexible"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 4914029,
+          "name": "Job Level",
+          "value": "IC - Professional",
+          "value_type": "single_select"
+        },
+        {
+          "id": 24109,
+          "name": "Employment Type",
+          "value": "Contract",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1073551,
+          "name": "Job Type",
+          "value": "Standard",
+          "value_type": "single_select"
+        },
+        {
+          "id": 988684,
+          "name": "JD Link",
+          "value": "https://docs.google.com/document/d/1FPq4TTdJ2nmvHGyNed5JLvD5sf6Is_ySFlaQ6VMo5y8/edit?tab=t.0",
+          "value_type": "url"
+        },
+        {
+          "id": 5525802,
+          "name": "Baseline Budgeted Salary",
+          "value": null,
+          "value_type": "currency_range"
+        },
+        {
+          "id": 5525816,
+          "name": "Other Large Market Budgeted Salary",
+          "value": null,
+          "value_type": "currency_range"
+        },
+        {
+          "id": 13324394,
+          "name": "Job Post Range (United States)",
+          "value": {
+            "unit": "USD",
+            "max_value": "0.0",
+            "min_value": "0.0"
+          },
+          "value_type": "currency_range"
+        },
+        {
+          "id": 40497768,
+          "name": "Job Post Range (Canada)",
+          "value": {
+            "unit": null,
+            "max_value": "0.0",
+            "min_value": "0.0"
+          },
+          "value_type": "currency_range"
+        },
+        {
+          "id": 57694516,
+          "name": "Job Post Range (Poland)",
+          "value": null,
+          "value_type": "currency_range"
+        },
+        {
+          "id": 64002488,
+          "name": "Job Post Range (Italy)",
+          "value": null,
+          "value_type": "currency_range"
+        }
+      ],
+      "id": 8105037,
+      "updated_at": "2026-10-09T10:03:12-04:00",
+      "requisition_id": "426365",
+      "title": "Contract Sourcer",
+      "company_name": "MongoDB",
+      "first_published": "2026-08-04T15:28:51-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;As a Contract Sourcer on our Talent Discovery team, you will be the pipeline generation engine supporting MongoDB&#39;s most critical hiring needs across the business. You will have the unique opportunity to become a sourcing subject matter expert, recruiting for technical and non-technical roles alike. In this role, you will identify, engage, and qualify top talent. This opportunity is ideal for individuals who embrace change, thrive in a fast-paced, ever-evolving environment, and are excited to grow their careers in recruiting while expanding their expertise across a broad range of functions as business priorities evolve.&lt;/p&gt;&lt;p&gt;[…]&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 85986,
+          "name": "Early Talent Recruiting",
+          "child_ids": [],
+          "parent_id": 69298
+        }
+      ],
+      "offices": [
+        {
+          "id": 3962,
+          "name": "Dublin",
+          "location": "Dublin, Ireland",
+          "child_ids": [],
+          "parent_id": 23658
+        }
+      ],
+      "ai_disclaimer": null,
+      "include_ai_disclaimer": false,
+      "ai_opt_out_request_url": null
+    },
+    {
+      "absolute_url": "https://www.mongodb.com/careers/job/?gh_jid=8221182",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3558049,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 22194060,
+          "name": "Position ID",
+          "value": "10008455",
+          "value_type": "short_text"
+        },
+        {
+          "id": 24918,
+          "name": "Department ID",
+          "value": "D22104-Online Transaction Processing",
+          "value_type": "single_select"
+        },
+        {
+          "id": 22194061,
+          "name": "Team",
+          "value": "T10056-Cluster Scalability",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4914027,
+          "name": "Region",
+          "value": "North America",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4137836,
+          "name": "Working Model Eligibility",
+          "value": [
+            "2-Flexible"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 4914029,
+          "name": "Job Level",
+          "value": "Professional - IC",
+          "value_type": "single_select"
+        },
+        {
+          "id": 24109,
+          "name": "Employment Type",
+          "value": "Full-time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1073551,
+          "name": "Job Type",
+          "value": "Standard",
+          "value_type": "single_select"
+        },
+        {
+          "id": 988684,
+          "name": "JD Link",
+          "value": "https://docs.google.com/document/d/1veW7VRFOL1HyG5R-tkd4Tc48PgQmuQv67zLl8rM5aVA/edit?usp=sharing",
+          "value_type": "url"
+        },
+        {
+          "id": 5525802,
+          "name": "Baseline Budgeted Salary",
+          "value": {
+            "unit": "USD",
+            "max_value": "225000.0",
+            "min_value": "157000.0"
+          },
+          "value_type": "currency_range"
+        },
+        {
+          "id": 5525816,
+          "name": "Other Large Market Budgeted Salary",
+          "value": null,
+          "value_type": "currency_range"
+        },
+        {
+          "id": 13324394,
+          "name": "Job Post Range (United States)",
+          "value": {
+            "unit": "USD",
+            "max_value": "248000.0",
+            "min_value": "126000.0"
+          },
+          "value_type": "currency_range"
+        },
+        {
+          "id": 40497768,
+          "name": "Job Post Range (Canada)",
+          "value": {
+            "unit": "USD",
+            "max_value": "0.0",
+            "min_value": "0.0"
+          },
+          "value_type": "currency_range"
+        },
+        {
+          "id": 57694516,
+          "name": "Job Post Range (Poland)",
+          "value": null,
+          "value_type": "currency_range"
+        },
+        {
+          "id": 64002488,
+          "name": "Job Post Range (Italy)",
+          "value": null,
+          "value_type": "currency_range"
+        }
+      ],
+      "id": 8221182,
+      "updated_at": "2026-10-09T13:30:16-04:00",
+      "requisition_id": "3273558049",
+      "title": "Senior Software Engineer, Cluster Scalability",
+      "company_name": "MongoDB",
+      "first_published": "2026-09-24T14:25:42-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;p&gt;Join Cluster Scalability, one of MongoDB&#39;s Online Transaction Processing teams, and help build the core infrastructure that makes MongoDB a world-class distributed database. The team builds the infrastructure and tools that let customers scale their workloads past what a single node can handle. We take pride in building clean abstractions over hard distributed systems problems, so users can focus on their data instead of worrying about where it lives or how it&#39;s accessed. Our work has a big impact: it solves the hardest data challenges faced by MongoDB&#39;s largest customers.&lt;/p&gt;&lt;p&gt;[…]&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 406858,
+          "name": "Online Transaction Processing ",
+          "child_ids": [],
+          "parent_id": 371021
+        }
+      ],
+      "offices": [
+        {
+          "id": 3960,
+          "name": "New York City",
+          "location": "New York, NY, United States",
+          "child_ids": [],
+          "parent_id": 23657
+        }
+      ],
+      "ai_disclaimer": null,
+      "include_ai_disclaimer": false,
+      "ai_opt_out_request_url": null
+    }
+  ],
+  "meta": {
+    "total": 2
+  }
+}

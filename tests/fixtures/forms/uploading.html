@@ -1,0 +1,41 @@
+<!doctype html>
+<!--
+  A form whose resume widget uploads the file before the form is sent, as Greenhouse's
+  does: once a file is chosen, the picker gives way to a progress bar, and the file's
+  name shows when the upload is done. With ?stall the upload never finishes, as one over
+  a stalled connection does not.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Apply - Platform Engineer</title>
+  </head>
+  <body>
+    <main>
+      <h1>Platform Engineer</h1>
+      <form id="application" method="post" action="/submit?from=uploading" enctype="multipart/form-data">
+        <p><label>Full name * <input name="name" type="text" required /></label></p>
+        <p><label>Email address * <input name="email" type="email" required /></label></p>
+        <div class="file-upload">
+          <label for="resume">Resume/CV *</label>
+          <input id="resume" name="resume" type="file" accept="application/pdf" required />
+          <div id="progress" class="file-upload__progressbar" role="progressbar" aria-valuenow="100" hidden><span style="display:block;width:100%;height:6px;background:#222"></span></div>
+          <span id="filename"></span>
+        </div>
+        <p><button type="submit">Submit application</button></p>
+      </form>
+    </main>
+    <script>
+      var input = document.getElementById("resume");
+      input.addEventListener("change", function () {
+        input.style.display = "none";
+        document.getElementById("progress").hidden = false;
+        if (location.search.indexOf("stall") >= 0) return;
+        setTimeout(function () {
+          document.getElementById("progress").hidden = true;
+          document.getElementById("filename").textContent = input.files[0] ? input.files[0].name : "";
+        }, 1200);
+      });
+    </script>
+  </body>
+</html>

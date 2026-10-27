@@ -1,0 +1,47 @@
+<!doctype html>
+<!--
+  A form whose resume widget uploads the file before the form is sent, as Ashby's does:
+  once a file is chosen, its name shows at once beside a spinning "loadingSvg" icon, and
+  Submit stays enabled all along. The icon gives way to a file icon when the upload is
+  done. With ?stall it never does. "upload_done" records which it was when the form went.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Apply - Platform Engineer</title>
+  </head>
+  <body>
+    <main>
+      <h1>Platform Engineer</h1>
+      <form id="application" method="post" action="/submit?from=uploading-ashby" enctype="multipart/form-data">
+        <p><label>Full name * <input name="name" type="text" required /></label></p>
+        <p><label>Email address * <input name="email" type="email" required /></label></p>
+        <div class="ashby-application-form-field-entry">
+          <label for="_systemfield_resume">Resume *</label>
+          <div role="presentation" class="ashby-application-form-input-file">
+            <input id="_systemfield_resume" name="resume" type="file" accept="application/pdf" required />
+            <div id="item" class="ashby-application-form-input-file-item" hidden>
+              <p class="ashby-application-form-input-file-item-name"><span id="icon"></span><span id="filename"></span></p>
+            </div>
+          </div>
+        </div>
+        <input type="hidden" name="upload_done" id="upload_done" value="no" />
+        <p><button type="submit">Submit Application</button></p>
+      </form>
+    </main>
+    <script>
+      var input = document.getElementById("_systemfield_resume");
+      var icon = document.getElementById("icon");
+      input.addEventListener("change", function () {
+        document.getElementById("item").hidden = false;
+        document.getElementById("filename").textContent = input.files[0] ? input.files[0].name : "";
+        icon.innerHTML = '<svg class="loadingSvg _loadingIcon_10xk4_48" viewBox="0 0 38 38" width="12" height="12"><circle cx="19" cy="19" r="17" stroke="#222" fill="none"/></svg>';
+        if (location.search.indexOf("stall") >= 0) return;
+        setTimeout(function () {
+          icon.innerHTML = '<svg class="_icon_10xk4_47" viewBox="0 0 448 512" width="12" height="12"><rect width="448" height="512" fill="#222"/></svg>';
+          document.getElementById("upload_done").value = "yes";
+        }, 1200);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<!doctype html>
+<!-- The second step of a sign-in: a one-time code prompt. -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Check your phone</title>
+  </head>
+  <body>
+    <main>
+      <h1>Enter the 6-digit code</h1>
+      <p>We sent a verification code to the phone number on your account.</p>
+      <form method="post" action="/submit?from=verify">
+        <label for="code">Code</label>
+        <input id="code" name="code" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="6" />
+        <button type="submit">Verify</button>
+      </form>
+    </main>
+  </body>
+</html>

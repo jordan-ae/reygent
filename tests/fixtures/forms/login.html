@@ -1,0 +1,22 @@
+<!doctype html>
+<!-- A sign-in wall in front of an application, as an ATS with candidate accounts shows it. -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign in to continue</title>
+  </head>
+  <body>
+    <main>
+      <h1>Sign in to continue your application</h1>
+      <form method="post" action="/submit?from=login">
+        <label for="user_email">Email</label>
+        <input id="user_email" name="email" type="email" autocomplete="username" required />
+        <label for="user_password">Password</label>
+        <input id="user_password" name="password" type="password" autocomplete="current-password" required />
+        <label><input type="checkbox" name="remember" /> Keep me signed in</label>
+        <button type="submit">Sign in</button>
+      </form>
+      <p><a href="/signup">Create an account</a></p>
+    </main>
+  </body>
+</html>

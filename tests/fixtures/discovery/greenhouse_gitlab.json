@@ -1,0 +1,170 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/gitlab/jobs/8704363002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 6478405002,
+      "location": {
+        "name": "Remote, Canada; Remote, Poland; Remote, United Kingdom"
+      },
+      "metadata": [
+        {
+          "id": 4595831002,
+          "name": "Quota Coverage Type",
+          "value": "n/a",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8704363002,
+      "updated_at": "2026-10-01T05:29:34-04:00",
+      "requisition_id": "6808",
+      "title": "Backend Engineer (Python),AI Engineering: Agent Foundations",
+      "company_name": "GitLab",
+      "first_published": "2026-08-19T09:38:27-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;&lt;p&gt;[…]&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 4115238002,
+          "name": "AI Engineering",
+          "child_ids": [],
+          "parent_id": 4011044002
+        }
+      ],
+      "offices": [],
+      "ai_disclaimer": null,
+      "include_ai_disclaimer": null,
+      "ai_opt_out_request_url": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/gitlab/jobs/8860302002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 6547054002,
+      "location": {
+        "name": "Remote, France"
+      },
+      "metadata": [
+        {
+          "id": 4595831002,
+          "name": "Quota Coverage Type",
+          "value": "Account Executive",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8860302002,
+      "updated_at": "2026-10-02T11:31:50-04:00",
+      "requisition_id": "7109",
+      "title": "Account Executive - France",
+      "company_name": "GitLab",
+      "first_published": "2026-10-02T11:31:50-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;&lt;p&gt;[…]&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 4096748002,
+          "name": "EMEA - Commercial",
+          "child_ids": [],
+          "parent_id": 4096735002
+        }
+      ],
+      "offices": [
+        {
+          "id": 4042500002,
+          "name": "France",
+          "location": "France",
+          "child_ids": [],
+          "parent_id": 4019553002
+        }
+      ],
+      "ai_disclaimer": null,
+      "include_ai_disclaimer": null,
+      "ai_opt_out_request_url": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/gitlab/jobs/8698330002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 6475727002,
+      "location": {
+        "name": "Remote, Canada; Remote, United States"
+      },
+      "metadata": [
+        {
+          "id": 4595831002,
+          "name": "Quota Coverage Type",
+          "value": "n/a",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8698330002,
+      "updated_at": "2026-09-29T10:38:50-04:00",
+      "requisition_id": "6801",
+      "title": "Fullstack Engineer (TypeScript), AI Engineering: Duo Client SDK",
+      "company_name": "GitLab",
+      "first_published": "2026-08-20T21:22:41-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;&lt;p&gt;[…]&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 4115238002,
+          "name": "AI Engineering",
+          "child_ids": [],
+          "parent_id": 4011044002
+        }
+      ],
+      "offices": [
+        {
+          "id": 4040901002,
+          "name": "Canada",
+          "location": null,
+          "child_ids": [],
+          "parent_id": 4019551002
+        },
+        {
+          "id": 4040904002,
+          "name": "United States of America",
+          "location": null,
+          "child_ids": [
+            4040902002
+          ],
+          "parent_id": 4019551002
+        }
+      ],
+      "ai_disclaimer": null,
+      "include_ai_disclaimer": null,
+      "ai_opt_out_request_url": null
+    }
+  ],
+  "meta": {
+    "total": 3
+  }
+}

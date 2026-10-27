@@ -1,0 +1,316 @@
+<!doctype html>
+<!--
+  Modelled on live jobs.ashbyhq.com/<org>/<id>/application pages, read in a browser in
+  October 2026 (supabase, ramp and openai boards; the markup below follows theirs
+  element for element, with the hashed class suffixes kept). What matters in it:
+  no <form> element at all; a "This job has application limits" notice and an
+  "Autofill from resume" drop zone above the questions, whose file input comes BEFORE
+  its heading; label[for] + input with id = name = the field path; "required" as a
+  class on the label and nowhere else for a Yes/No question; file inputs clipped to
+  1px; a Yes/No question as two aria-pressed buttons beside a display:none checkbox;
+  a radio fieldset that opens with the question instead of a legend; an autocomplete
+  (role="combobox", no id, an arrow button beside it) used both for the location
+  search and for any choice with more than eight options; the Submit button
+  outside the questions container; the score-only check as a hidden badge, a hidden
+  challenge frame and a site key in window.__appData. As on the live site, name and
+  email are overwritten the moment a resume is chosen, and Submit posts with fetch and
+  swaps the form for a "Success" panel in place.
+
+  Seen in a browser: all of the markup, and the autocomplete's empty popup (opened with
+  its arrow button: a role="listbox" div saying "No results"). Read from Ashby's
+  bundle, not seen: how the popup looks with results in it, and everything the
+  autocomplete does when typed into. Not known at all: how Ashby words a location
+  suggestion — "Douala, Littoral, Cameroon" here is a guess at "City, Region, Country".
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Product Engineer @ Fixture Labs</title>
+    <script>
+      window.__appData = { environment: "fixture", recaptchaPublicSiteKey: "fixture-key", recaptchaUniversalPublicSiteKey: "fixture-key-2" };
+    </script>
+    <style>
+      ._fieldEntry_1e3gg_28 { margin: 14px 0; border: 0; padding: 0; }
+      ._required_f7cvd_91::after { content: " *"; }
+      ._input_1svni_78 { display: none; }
+      label { display: block; }
+      .grecaptcha-badge { visibility: hidden; position: fixed; right: 0; bottom: 14px; width: 256px; height: 60px; }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div tabindex="0" role="tabpanel" aria-labelledby="job-application-form" id="form">
+        <div class="_applicationLimitCallout_5yu8i_447 ashby-application-blocking-disclosure _container_f7cvd_28" data-highlight="none">
+          <div class="_root_nnn9h_28" data-open="true">
+            <div class="_header_nnn9h_36"><div class="_title_nnn9h_45"><span>This job has application limits</span></div></div>
+            <div class="_body_nnn9h_71"><div><p><strong>Heads up on application limits</strong></p><p>You can submit up to 3 applications within a 60-day period with us.</p></div></div>
+          </div>
+        </div>
+
+        <div class="_autofillPane_5yu8i_448 ashby-application-form-autofill-pane _container_f7cvd_28" data-highlight="none">
+          <div role="presentation" class="_root_xd2v0_1 ashby-application-form-autofill-input-root" data-state="default">
+            <input id="autofill-input" accept="application/pdf,.pdf" type="file" tabindex="-1" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); height: 1px; margin: 0px -1px -1px 0px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap" />
+            <div class="_base_xd2v0_31 ashby-application-form-autofill-input-base-layer"><div class="_content_xd2v0_36">
+              <div class="_header_xd2v0_43"><div class="_iconContainer_xd2v0_50"></div><h3 class="_title_xd2v0_64 ashby-application-form-autofill-input-title">Autofill from resume</h3></div>
+              <p class="_description_xd2v0_76 ashby-application-form-autofill-input-description">Upload your resume here to autofill key application fields.</p>
+              <div class="_cta_xd2v0_88"><button class="_button_zyh3g_28 _secondary_zyh3g_115 _ctaButton_xd2v0_94">Upload file</button></div>
+            </div></div>
+            <div class="_drag_xd2v0_120 ashby-application-form-autofill-input-drag-layer" data-state="hidden" hidden><span>Drop your resume here!</span></div>
+            <div class="_pending_xd2v0_121 ashby-application-form-autofill-input-pending-layer" data-state="hidden" hidden><span>Parsing your resume. Autofilling key fields...</span></div>
+          </div>
+        </div>
+
+        <div class="_jobPostingForm_5yu8i_402 ashby-application-form-container _container_f7cvd_28" data-highlight="none">
+          <div class="_section_5yu8i_86 ashby-application-form-section-container">
+            <div class="_sectionHeader_5yu8i_93 ashby-application-form-section-header"><h2 class="_title_5yu8i_99 ashby-application-form-section-header-title">Admin</h2></div>
+
+            <div class="_fieldEntry_1e3gg_28 ashby-application-form-field-entry" data-field-path="_systemfield_name">
+              <label class="_heading_f7cvd_52 _required_f7cvd_91 _label_1e3gg_42 ashby-application-form-question-title" for="_systemfield_name">Legal Name</label>
+              <div><input placeholder="Type here..." name="_systemfield_name" required id="_systemfield_name" type="text" class="_input_80epu_28 _input_1e3gg_32 ashby-application-form-input-text" value="" /></div>
+            </div>
+            <div class="_fieldEntry_1e3gg_28 ashby-application-form-field-entry" data-field-path="_systemfield_email">
+              <label class="_heading_f7cvd_52 _required_f7cvd_91 _label_1e3gg_42 ashby-application-form-question-title" for="_systemfield_email">Email</label>
+              <div><input placeholder="hello@example.com..." name="_systemfield_email" required id="_systemfield_email" type="email" class="_input_80epu_28 _input_1e3gg_32 ashby-application-form-input-text" value="" /></div>
+            </div>
+            <div class="_fieldEntry_1e3gg_28 ashby-application-form-field-entry" data-field-path="_systemfield_resume">
+              <label class="_heading_f7cvd_52 _required_f7cvd_91 _label_1e3gg_42 ashby-application-form-question-title" for="_systemfield_resume">Resume</label>
+              <div role="presentation" class="_container_10xk4_70 ashby-application-form-input-file">
+                <input accept="application/pdf,.pdf" type="file" tabindex="-1" id="_systemfield_resume" required style="border: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); height: 1px; margin: 0px -1px -1px 0px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap" />
+                <div class="_instructions_10xk4_33 ashby-application-form-input-file-dropzone"><button class="_button_zyh3g_28 _secondary_zyh3g_115 _button_10xk4_106 ashby-application-form-input-file-dropzone-upload"><span><span>Upload File</span></span></button><p class="_dragInstructions_10xk4_28 ashby-application-form-input-file-dropzone-instructions">or drag and drop here</p></div>
+              </div>
+            </div>
+            <div class="_fieldEntry_1e3gg_28 ashby-application-form-field-entry" data-field-path="_systemfield_location">
+              <label class="_heading_f7cvd_52 _required_f7cvd_91 _label_1e3gg_42 ashby-application-form-question-title" for="_systemfield_location">Location</label>
+              <div class="_inputContainer_d7ago_28" data-autocomplete="_systemfield_location"><input placeholder="Start typing..." class="_input_d7ago_28 ashby-application-form-input-autocomplete" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-haspopup="listbox" value="" /><button class="_toggleButton_d7ago_44"></button></div>
+            </div>
+            <div class="_fieldEntry_1e3gg_28 ashby-application-form-field-entry" data-field-path="q-country">
+              <label class="_heading_f7cvd_52 _required_f7cvd_91 _label_1e3gg_42 ashby-application-form-question-title" for="q-country">Country of Residence</label>
+              <div><input placeholder="Type here..." name="q-country" required id="q-country" type="text" class="_input_80epu_28 _input_1e3gg_32 ashby-application-form-input-text" value="" /></div>
+            </div>
+            <div class="_fieldEntry_1e3gg_28 ashby-application-form-field-entry" data-field-path="q-adult">
+              <label class="_heading_f7cvd_52 _required_f7cvd_91 _label_1e3gg_42 ashby-application-form-question-title" for="q-adult">Are you over the age of 18?</label>
+              <div class="_container_1svni_28 _yesno_1e3gg_148 ashby-application-form-input-yesno">
+                <button class="_container_pjyt6_1 _option_1svni_32 ashby-application-form-input-yesno-option" aria-pressed="false" data-option="yes">Yes</button>
+                <button class="_container_pjyt6_1 _option_1svni_32 ashby-application-form-input-yesno-option" aria-pressed="false" data-option="no">No</button>
+                <input type="checkbox" class="_input_1svni_78" tabindex="-1" name="q-adult" />
+              </div>
+            </div>
+          </div>
+
+          <div class="_section_5yu8i_86 ashby-application-form-section-container">
+            <div class="_sectionHeader_5yu8i_93 ashby-application-form-section-header"><h2 class="_title_5yu8i_99 ashby-application-form-section-header-title">About you</h2></div>
+
+            <div class="_fieldEntry_1e3gg_28 ashby-application-form-field-entry" data-field-path="q-linkedin">
+              <label class="_heading_f7cvd_52 _label_1e3gg_42 ashby-application-form-question-title" for="q-linkedin">Linkedin</label>
+              <div><input placeholder="Type here..." name="q-linkedin" id="q-linkedin" type="text" class="_input_80epu_28 _input_1e3gg_32 ashby-application-form-input-text" value="" /></div>
+            </div>
+            <div class="_fieldEntry_1e3gg_28 ashby-application-form-field-entry" data-field-path="q-b2b">
+              <label class="_heading_f7cvd_52 _label_1e3gg_42 ashby-application-form-question-title" for="q-b2b">Are you open to a B2B contract engagement?</label>
+              <div class="_container_1svni_28 _yesno_1e3gg_148 ashby-application-form-input-yesno">
+                <button class="_container_pjyt6_1 _option_1svni_32 ashby-application-form-input-yesno-option" aria-pressed="false" data-option="yes">Yes</button>
+                <button class="_container_pjyt6_1 _option_1svni_32 ashby-application-form-input-yesno-option" aria-pressed="false" data-option="no">No</button>
+                <input type="checkbox" class="_input_1svni_78" tabindex="-1" name="q-b2b" />
+              </div>
+            </div>
+            <div data-field-path="q-hours">
+              <fieldset class="_container_1258i_28 _fieldEntry_1e3gg_28 ashby-application-form-input-radio-group">
+                <label class="_heading_f7cvd_52 _label_1e3gg_42 ashby-application-form-question-title" for="q-hours">How many hours a week can you commit?</label>
+                <div class="_option_1258i_34 false ashby-application-form-input-radio-group-option"><span class="_container_132c8_28" data-disabled="false"><span class="_circle_132c8_77"></span><input type="radio" id="entry_q-hours-labeled-radio-0" name="entry_q-hours" class="ashby-application-form-input-radio-group-option-radio" value="20" /></span><label for="entry_q-hours-labeled-radio-0" class="_label_1258i_42 ashby-application-form-input-radio-group-option-label">20</label></div>
+                <div class="_option_1258i_34 false ashby-application-form-input-radio-group-option"><span class="_container_132c8_28" data-disabled="false"><span class="_circle_132c8_77"></span><input type="radio" id="entry_q-hours-labeled-radio-1" name="entry_q-hours" class="ashby-application-form-input-radio-group-option-radio" value="40" /></span><label for="entry_q-hours-labeled-radio-1" class="_label_1258i_42 ashby-application-form-input-radio-group-option-label">40</label></div>
+              </fieldset>
+            </div>
+            <div data-field-path="q-office">
+              <!-- A choice with more than eight options: Ashby renders it as the same autocomplete, filtering a fixed list. -->
+              <fieldset class="_container_wz442_28 _fieldEntry_1e3gg_28">
+                <label class="_heading_f7cvd_52 _label_1e3gg_42 ashby-application-form-question-title" for="q-office">Which office would you visit most often?</label>
+                <div class="_inputContainer_d7ago_28" data-autocomplete="q-office" data-values="Amsterdam|Berlin|Dublin|Lagos|Lisbon|London|Nairobi|New York|None, fully remote|Paris"><input placeholder="Start typing..." class="_input_d7ago_28 ashby-application-form-input-autocomplete" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-haspopup="listbox" value="" /><button class="_toggleButton_d7ago_44"></button></div>
+              </fieldset>
+            </div>
+            <div class="_fieldEntry_1e3gg_28 ashby-application-form-field-entry" data-field-path="q-why">
+              <label class="_heading_f7cvd_52 _label_1e3gg_42 ashby-application-form-question-title" for="q-why">Why Fixture Labs?</label>
+              <textarea placeholder="Type here..." name="q-why" id="q-why" class="_input_zf0lr_28 _input_1e3gg_32 ashby-application-form-input-textarea" rows="4"></textarea>
+            </div>
+          </div>
+        </div>
+        <button id="submit-application" class="_button_zyh3g_28 _primary_zyh3g_97 _greedy_zyh3g_221 _submitButton_5yu8i_411 ashby-application-form-submit-button"><span>Submit Application</span></button>
+      </div>
+    </div>
+
+    <div class="grecaptcha-badge" data-style="bottomright"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" src="/recaptcha/anchor"></iframe></div></div>
+    <div style="visibility: hidden; position: absolute; width: 100%; top: -10000px; left: 0px; right: 0px"><div><iframe title="recaptcha challenge expires in two minutes" src="/recaptcha/bframe" style="width: 100%; height: 150px"></iframe></div></div>
+    <textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="display: none"></textarea>
+
+    <script>
+      var value = function (id) { return document.getElementById(id).value; };
+
+      // Yes/No: pressing the pressed button again clears the answer, as on the live form.
+      document.querySelectorAll(".ashby-application-form-input-yesno").forEach(function (box) {
+        var buttons = box.querySelectorAll("button");
+        buttons.forEach(function (button) {
+          button.addEventListener("click", function () {
+            var was = button.getAttribute("aria-pressed") === "true";
+            buttons.forEach(function (other) { other.setAttribute("aria-pressed", "false"); });
+            button.setAttribute("aria-pressed", was ? "false" : "true");
+            box.querySelector("input").checked = !was && button.getAttribute("data-option") === "yes";
+            save(box.querySelector("input").name, was ? null : button.getAttribute("data-option") === "yes");
+          });
+        });
+      });
+      var answer = function (path) {
+        var pressed = document.querySelector('[data-field-path="' + path + '"] button[aria-pressed="true"]');
+        return pressed ? pressed.getAttribute("data-option") : "";
+      };
+
+      // Ashby's autocomplete, as its bundle builds it. Clicking the input opens
+      // nothing: the list (a role="listbox" portal the input points at with
+      // aria-controls) opens on typing or on the arrow button. A location box asks the
+      // server 300 ms after the last keystroke (the ApiAutocompleteGeoLocation query)
+      // and shows each suggestion's name; a long choice filters its fixed list. What is
+      // typed is thrown away on blur; only a clicked result becomes the value — and
+      // that value is saved to the server at once (ApiSetFormValue), as is "nothing"
+      // when the box is emptied by hand. Enter takes the first result.
+      var save = function (path, value) {
+        fetch("/api/non-user-graphql?op=ApiSetFormValue", { method: "POST", body: JSON.stringify({ variables: { path: path, value: value } }) });
+      };
+      // Every other answer is saved the same way as soon as it is given (Ashby does it
+      // 500 ms after the last keystroke, or on blur).
+      document.querySelectorAll(".ashby-application-form-input-text, .ashby-application-form-input-textarea, input[type=radio]").forEach(function (input) {
+        input.addEventListener("change", function () { save(input.name, input.value); });
+      });
+      document.querySelectorAll("[data-autocomplete]").forEach(function (box, number) {
+        var input = box.querySelector("input");
+        var path = box.getAttribute("data-autocomplete");
+        var fixed = box.getAttribute("data-values");
+        var all = fixed ? fixed.split("|").map(function (name) { return { name: name }; }) : null;
+        var results = all;
+        var selected = null;
+        var open = false;
+        var loading = false;
+        var popup = null;
+        var timer;
+        var id = ":r" + number + ":";
+
+        function render() {
+          if (popup) popup.remove();
+          popup = null;
+          input.setAttribute("aria-expanded", open ? "true" : "false");
+          if (!open) return input.removeAttribute("aria-controls");
+          input.setAttribute("aria-controls", id);
+          popup = document.createElement("div");
+          popup.id = id;
+          popup.tabIndex = -1;
+          popup.setAttribute("role", "listbox");
+          popup.setAttribute("aria-orientation", "vertical");
+          popup.className = "_floatingContainer_d7ago_103";
+          var container = document.createElement("div");
+          container.className = "_resultContainer_d7ago_116 ashby-application-form-input-autocomplete-popup";
+          if (loading) {
+            container.setAttribute("data-loading", "");
+            container.innerHTML = '<div class="_loading_d7ago_90 ashby-application-form-input-autocomplete-popup-loading"><span>Loading...</span></div>';
+          } else if (!results || !results.length) {
+            container.setAttribute("data-empty", "");
+            container.innerHTML = '<div class="_noResults_d7ago_98 ashby-application-form-input-autocomplete-popup-empty"><p>No results</p></div>';
+          } else {
+            results.forEach(function (result, index) {
+              var option = document.createElement("div");
+              option.id = id + "option-" + index;
+              option.setAttribute("role", "option");
+              option.setAttribute("aria-selected", index === 0 ? "true" : "false");
+              option.className = "_result_d7ago_122 ashby-application-form-input-autocomplete-popup-result";
+              option.textContent = result.name;
+              option.addEventListener("click", function () { choose(result); });
+              container.appendChild(option);
+            });
+          }
+          popup.appendChild(container);
+          document.body.appendChild(popup);
+        }
+        function choose(result) {
+          if (!result) {
+            selected = null;
+            return save(path, null);
+          }
+          var place = result.geoLocationPath ? result.geoLocationPath[result.geoLocationPath.length - 1] : null;
+          selected = place ? { text: result.name, providerLocationId: place.providerLocationId } : { text: result.name };
+          save(path, place ? selected : result.name);
+          // The live bundle writes the pick into the box a render later, not with the click.
+          var shown = selected.text;
+          setTimeout(function () { if (selected && selected.text === shown) input.value = shown; }, 300);
+          open = false;
+          render();
+          input.focus();
+        }
+
+        input.addEventListener("input", function () {
+          var text = input.value;
+          clearTimeout(timer);
+          if (!text) choose(null);
+          else open = true;
+          if (all) {
+            results = all.filter(function (entry) { return entry.name.toLowerCase().indexOf(text.toLowerCase()) >= 0; });
+            return render();
+          }
+          loading = true;
+          render();
+          timer = setTimeout(function () {
+            fetch("/api/non-user-graphql?op=ApiAutocompleteGeoLocation", { method: "POST", body: JSON.stringify({ variables: { text: text } }) })
+              .then(function (response) { return response.json(); })
+              .then(function (body) {
+                results = body.data.result.suggestions;
+                loading = false;
+                render();
+              });
+          }, 300);
+        });
+        input.addEventListener("blur", function () { input.value = selected ? selected.text : ""; });
+        input.addEventListener("keydown", function (event) {
+          if (event.key === "Enter" && open && results && results[0]) choose(results[0]);
+          if (event.key === "Escape") { open = false; render(); }
+        });
+        box.querySelector("button").addEventListener("click", function () {
+          open = !open;
+          render();
+          if (open) input.focus();
+        });
+        box.selectedValue = function () { return selected ? selected.text : ""; };
+      });
+
+      // Ashby reads the resume as soon as it is chosen and writes what it finds into
+      // the form. Whatever is typed before that is lost; whatever is typed after stays.
+      document.getElementById("_systemfield_resume").addEventListener("change", function () {
+        setTimeout(function () {
+          document.getElementById("_systemfield_name").value = "Parsed From Resume";
+          document.getElementById("_systemfield_email").value = "parsed@resume.example";
+        }, 0);
+      });
+
+      document.getElementById("submit-application").addEventListener("click", function () {
+        var resume = document.getElementById("_systemfield_resume");
+        var picked = function (path) { return document.querySelector('[data-autocomplete="' + path + '"]').selectedValue(); };
+        if (!value("_systemfield_name") || !value("_systemfield_email") || !resume.files.length || !picked("_systemfield_location") || !value("q-country") || !answer("q-adult")) {
+          document.querySelector(".ashby-application-form-container").insertAdjacentHTML(
+            "afterbegin", '<div class="_errorsContainer_5yu8i_1" role="alert" aria-live="assertive"><h2>Your form needs corrections</h2></div>');
+          return;
+        }
+        var body = new FormData();
+        body.append("name", value("_systemfield_name"));
+        body.append("email", value("_systemfield_email"));
+        body.append("location", picked("_systemfield_location"));
+        body.append("office", picked("q-office"));
+        body.append("country", value("q-country"));
+        body.append("adult", answer("q-adult"));
+        body.append("linkedin", value("q-linkedin"));
+        body.append("b2b", answer("q-b2b"));
+        body.append("hours", (document.querySelector('[name="entry_q-hours"]:checked') || { value: "" }).value);
+        body.append("why", value("q-why"));
+        body.append("autofill_files", String(document.getElementById("autofill-input").files.length));
+        body.append("resume", resume.files[0]);
+        fetch("/submit?from=ashby", { method: "POST", body: body }).then(function () {
+          document.getElementById("form").innerHTML =
+            '<div class="ashby-application-form-success-container"><div role="status" aria-live="polite" tabindex="-1"><h2>Success</h2>' +
+            "<p>Your application was successfully submitted. We'll contact you if there are next steps.</p></div></div>";
+        });
+      });
+    </script>
+  </body>
+</html>
